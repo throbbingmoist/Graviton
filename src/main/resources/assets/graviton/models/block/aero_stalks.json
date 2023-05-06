@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "graviton:block/aerostalks_block"
-  }
+    "cross": "graviton:block/aero_stalks"
+  },
+  "render_type": "cutout"
 }

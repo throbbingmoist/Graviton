@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "aethergenesis:block/blue_skyroot_sapling"
+      "model": "graviton:block/blue_skyroot_sapling"
     }
   }
 }

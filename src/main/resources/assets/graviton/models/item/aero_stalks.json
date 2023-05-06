@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "graviton:item/aerostalks_item"
+    "layer0": "graviton:item/aero_stalks"
   }
 }

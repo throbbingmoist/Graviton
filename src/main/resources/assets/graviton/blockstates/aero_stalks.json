@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "aethergenesis:block/aero_stalks"
+      "model": "graviton:block/aero_stalks"
     }
   }
 }
