@@ -23,7 +23,7 @@ public class GravitonConfiguredFeatures {
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
 
         register(context, BLUE_SKYROOT_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-                BlockStateProvider.simple(Blocks.ACACIA_LOG),
+                BlockStateProvider.simple(GravitonBlocks.COARSE_AETHER_DIRT.get()),
                 new StraightTrunkPlacer(5, 6, 3),
                 BlockStateProvider.simple(GravitonBlocks.BLUE_SKYROOT_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 4),
