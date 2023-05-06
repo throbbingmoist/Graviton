@@ -121,7 +121,9 @@ This is a WIP Addon to the Aether Legacy mod.
 [[dependencies.graviton]]
     modId="minecraft"
     mandatory=true
-	
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
 [[dependencies.graviton]]
     modId="lost_aether_content"
     mandatory=true
@@ -136,6 +138,3 @@ This is a WIP Addon to the Aether Legacy mod.
     side="BOTH"
 
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[1.19.4,1.20)"
-    ordering="NONE"
-    side="BOTH"
