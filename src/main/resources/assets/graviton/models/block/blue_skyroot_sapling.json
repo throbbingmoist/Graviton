@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "graviton:block/blue_skyroot_sapling"
+  }
+}
