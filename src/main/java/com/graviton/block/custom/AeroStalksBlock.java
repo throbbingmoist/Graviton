@@ -126,7 +126,7 @@ public class AeroStalksBlock extends SugarCaneBlock {
         var blockAllowed = waterCheck(pos, worldIn);
         BlockState groundState = worldIn.getBlockState(blockpos);
         if (blockAllowed) {
-            return groundState.is(this) || groundState.is(BlockTags.create(new ResourceLocation("minecraft:dirt")));
+            return groundState.is(this) || groundState.is(BlockTags.create(new ResourceLocation("graviton:aerostalksgrowblocks"))) || groundState.is(BlockTags.create(new ResourceLocation("minecraft:dirt")));
         }
         else {
             return false;
