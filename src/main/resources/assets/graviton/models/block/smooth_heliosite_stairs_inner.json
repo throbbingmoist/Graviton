@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "graviton:block/smooth_heliosite",
+    "side": "graviton:block/smooth_heliosite",
+    "top": "graviton:block/smooth_heliosite"
+  }
+}

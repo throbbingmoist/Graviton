@@ -23,7 +23,7 @@ public class GravitonPlacedFeatures {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, BLUE_SKYROOT_PLACED_KEY, configuredFeatures.getOrThrow(GravitonConfiguredFeatures.BLUE_SKYROOT_KEY),
-                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2), GravitonBlocks.BLUE_SKYROOT_SAPLING.get()));
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2), GravitonBlocks.RED_SKYROOT_SAPLING.get()));
     }
 
 

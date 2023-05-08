@@ -1,6 +1,7 @@
-package com.graviton.datagen;
+package net.moist.godtier.datagen;
 
 import com.graviton.Graviton;
+import com.graviton.datagen.*;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -11,7 +12,6 @@ import net.minecraftforge.fml.common.Mod;
 
 import java.util.concurrent.CompletableFuture;
 
-
 @Mod.EventBusSubscriber(modid = Graviton.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
     @SubscribeEvent
@@ -21,7 +21,10 @@ public class DataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
+        generator.addProvider(true, new GravitonRecipeProvider(packOutput));
         generator.addProvider(true, GravitonLootTableProvider.create(packOutput));
+        generator.addProvider(true, new GravitonBlockStateProvider(packOutput, existingFileHelper));
+        generator.addProvider(true, new GravitonItemModelProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeServer(), new GravitonWorldGenProvider(packOutput, lookupProvider));
     }
 }

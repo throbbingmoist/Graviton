@@ -26,9 +26,32 @@ public class GravitonBlocks {
     public static final RegistryObject<Block> COARSE_AETHER_DIRT = registerBlock("coarse_aether_dirt", () -> new Block(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT).requiresCorrectToolForDrops().strength(0.5f)));
     public static final RegistryObject<Block> AERO_STALKS = registerBlock("aero_stalks", () -> new AeroStalksBlock());
 
+    public static final RegistryObject<Block> KARTHUULIUM_BLOCK = registerBlock("karthuulium_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)));
+    public static final RegistryObject<Block> KARTHUULIUM_ORE = registerBlock("karthuulium_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)));
+
+    public static final RegistryObject<Block> AETHER_SMITHING_TABLE = registerBlock("aether_smithing_table", () -> new Block(BlockBehaviour.Properties.copy((Blocks.SMITHING_TABLE))));
+
+    public static final RegistryObject<Block> HELIOSITE_ORE = registerBlock("heliosite_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+    public static final RegistryObject<Block> HELIOSITE_BLOCK = registerBlock("heliosite_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK)));
+    public static final RegistryObject<Block> CHISELED_HELIOSITE_BLOCK = registerBlock("chiseled_heliosite_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHISELED_QUARTZ_BLOCK)));
+    public static final RegistryObject<Block> HELIOSITE_BRICKS = registerBlock("heliosite_bricks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BRICKS)));
+    public static final RegistryObject<Block> HELIOSITE_PILLAR = registerBlock("heliosite_pillar", () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.QUARTZ_PILLAR)));
+    public static final RegistryObject<Block> HELIOSITE_SLAB = registerBlock("heliosite_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.QUARTZ_SLAB)));
+    public static final RegistryObject<Block> HELIOSITE_STAIRS = registerBlock("heliosite_stairs", () -> new StairBlock(() -> GravitonBlocks.HELIOSITE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.QUARTZ_STAIRS)));
+    public static final RegistryObject<Block> HELIOSITE_WALL = registerBlock("heliosite_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SMOOTH_HELIOSITE_BLOCK = registerBlock("smooth_heliosite_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.SMOOTH_QUARTZ)));
+    public static final RegistryObject<Block> SMOOTH_HELIOSITE_SLAB = registerBlock("smooth_heliosite_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_QUARTZ_SLAB)));
+    public static final RegistryObject<Block> SMOOTH_HELIOSITE_STAIRS = registerBlock("smooth_heliosite_stairs", () -> new StairBlock(() -> GravitonBlocks.SMOOTH_HELIOSITE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SMOOTH_QUARTZ_STAIRS)));
+    public static final RegistryObject<Block> SMOOTH_HELIOSITE_WALL = registerBlock("smooth_heliosite_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5f).requiresCorrectToolForDrops()));
 
 
-    public static final RegistryObject<Block> BLUE_SKYROOT_LEAVES = registerBlock("blue_skyroot_leaves",
+
+    public static final RegistryObject<Block> RED_SKYROOT_LEAVES = registerBlock("red_skyroot_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
                 @Override
                 public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
@@ -46,7 +69,7 @@ public class GravitonBlocks {
                 }
             });
 
-    public static final RegistryObject<Block> BLUE_SKYROOT_SAPLING = registerBlock("blue_skyroot_sapling",
+    public static final RegistryObject<Block> RED_SKYROOT_SAPLING = registerBlock("red_skyroot_sapling",
             () -> new SaplingBlock(new BlueSkyrootGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

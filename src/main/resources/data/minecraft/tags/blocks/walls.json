@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "graviton:heliosite_wall",
+    "graviton:smooth_heliosite_wall"
+  ]
+}

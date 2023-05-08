@@ -25,7 +25,7 @@ public class GravitonConfiguredFeatures {
         register(context, BLUE_SKYROOT_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(GravitonBlocks.COARSE_AETHER_DIRT.get()),
                 new StraightTrunkPlacer(5, 6, 3),
-                BlockStateProvider.simple(GravitonBlocks.BLUE_SKYROOT_LEAVES.get()),
+                BlockStateProvider.simple(GravitonBlocks.RED_SKYROOT_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 4),
                 new TwoLayersFeatureSize(1, 0, 2)).build());
     }

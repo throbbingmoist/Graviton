@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "graviton:block/heliosite_block",
+    "side": "graviton:block/heliosite_block",
+    "top": "graviton:block/heliosite_block"
+  }
+}

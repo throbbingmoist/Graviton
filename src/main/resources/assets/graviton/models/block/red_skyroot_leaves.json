@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "graviton:block/blue_skyroot_leaves"
+    "all": "graviton:block/red_skyroot_leaves"
   }
 }

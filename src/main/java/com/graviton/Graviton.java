@@ -1,6 +1,7 @@
 package com.graviton;
 
 import com.graviton.block.GravitonBlocks;
+import com.graviton.item.GravitonCreativeTabs;
 import com.graviton.item.GravitonItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,6 +32,8 @@ public class Graviton
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
+
+        modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -38,11 +41,29 @@ public class Graviton
     }
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if (event.getTab() == CreativeModeTabs.OP_BLOCKS) {
-            event.accept(GravitonBlocks.BLUE_SKYROOT_LEAVES);
-            event.accept(GravitonBlocks.BLUE_SKYROOT_SAPLING);
+        if (event.getTab() == GravitonCreativeTabs.GRAVITON_TAB) {
+            event.accept(GravitonBlocks.RED_SKYROOT_LEAVES);
+            event.accept(GravitonBlocks.RED_SKYROOT_SAPLING);
+            event.accept(GravitonBlocks.AETHER_SMITHING_TABLE);
             event.accept(GravitonBlocks.AERO_STALKS);
-            event.accept(GravitonBlocks.COARSE_AETHER_DIRT);
+            event.accept(GravitonItems.HELIOSITE);
+            event.accept(GravitonBlocks.HELIOSITE_ORE);
+            event.accept(GravitonBlocks.HELIOSITE_BLOCK);
+            event.accept(GravitonBlocks.HELIOSITE_STAIRS);
+            event.accept(GravitonBlocks.HELIOSITE_SLAB);
+            event.accept(GravitonBlocks.HELIOSITE_WALL);
+
+            event.accept(GravitonBlocks.SMOOTH_HELIOSITE_BLOCK);
+            event.accept(GravitonBlocks.SMOOTH_HELIOSITE_STAIRS);
+            event.accept(GravitonBlocks.SMOOTH_HELIOSITE_SLAB);
+            event.accept(GravitonBlocks.SMOOTH_HELIOSITE_WALL);
+
+            event.accept(GravitonBlocks.HELIOSITE_BRICKS);
+            event.accept(GravitonBlocks.HELIOSITE_PILLAR);
+            event.accept(GravitonBlocks.CHISELED_HELIOSITE_BLOCK);;
+            event.accept(GravitonItems.KARTHUULIUM_INGOT);
+            event.accept(GravitonBlocks.KARTHUULIUM_ORE);
+            event.accept(GravitonBlocks.KARTHUULIUM_BLOCK);
         }
     }
 
