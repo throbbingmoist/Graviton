@@ -16,7 +16,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "graviton:blue_skyroot_leaves",
+        "Name": "graviton:red_skyroot_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "false",

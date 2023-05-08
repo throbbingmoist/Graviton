@@ -9,7 +9,7 @@
           "predicate": {
             "type": "minecraft:would_survive",
             "state": {
-              "Name": "graviton:blue_skyroot_sapling",
+              "Name": "graviton:red_skyroot_sapling",
               "Properties": {
                 "stage": "0"
               }
@@ -29,7 +29,7 @@
               "predicate": {
                 "type": "minecraft:would_survive",
                 "state": {
-                  "Name": "graviton:blue_skyroot_sapling",
+                  "Name": "graviton:red_skyroot_sapling",
                   "Properties": {
                     "stage": "0"
                   }
