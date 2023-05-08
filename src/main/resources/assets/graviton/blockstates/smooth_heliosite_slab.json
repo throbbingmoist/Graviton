@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "graviton:block/smooth_heliosite_slab"
+    },
+    "type=double": {
+      "model": "graviton:block/smooth_heliosite"
+    },
+    "type=top": {
+      "model": "graviton:block/smooth_heliosite_slab_top"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "graviton:block/heliosite_block",
+    "side": "graviton:block/heliosite_block"
+  }
+}

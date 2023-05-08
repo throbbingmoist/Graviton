@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "graviton:block/blue_skyroot_sapling"
+    "layer0": "graviton:item/karthuulium_ingot"
   }
 }

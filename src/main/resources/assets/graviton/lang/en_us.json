@@ -1,6 +1,30 @@
 {
   "block.graviton.coarse_aether_dirt": "Coarse Aether Dirt",
   "block.graviton.aero_stalks": "Aero Stalks",
-  "block.graviton.blue_skyroot_sapling": "Blue Skyroot Sapling",
-  "block.graviton.blue_skyroot_leaves": "Blue Skyroot Leaves"
+  "block.graviton.red_skyroot_sapling": "Red Skyroot Sapling",
+  "block.graviton.red_skyroot_leaves": "Red Skyroot Leaves",
+
+  "item.graviton.heliosite": "Heliosite",
+  "block.graviton.heliosite_ore": "Heliosite Ore",
+  "block.graviton.heliosite_block": "Heliosite Block",
+  "block.graviton.heliosite_stairs": "Heliosite Stairs",
+  "block.graviton.heliosite_slab": "Heliosite Slab",
+  "block.graviton.heliosite_wall": "Heliosite Wall",
+
+  "block.graviton.chiseled_heliosite_block": "Chiseled Heliosite Block",
+  "block.graviton.heliosite_pillar": "Heliosite Pillar",
+  "block.graviton.heliosite_bricks": "Heliosite Bricks",
+
+  "block.graviton.smooth_heliosite_block": "Smooth Heliosite Block",
+  "block.graviton.smooth_heliosite_stairs": "Smooth Heliosite Stairs",
+  "block.graviton.smooth_heliosite_slab": "Smooth Heliosite Slab",
+  "block.graviton.smooth_heliosite_wall": "Smooth Heliosite Wall",
+
+  "block.graviton.karthuulium_block": "Block Of Karthuulium",
+  "block.graviton.karthuulium_ore": "Karthuulium Ore",
+  "item.graviton.karthuulium_ingot": "Karthuulium Ingot",
+
+  "block.graviton.aether_smithing_table": "Skyroot Smithing Table",
+
+  "creativemodetab.graviton_tab": "Graviton"
 }

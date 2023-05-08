@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "graviton:block/blue_skyroot_sapling"
+    "cross": "graviton:block/red_skyroot_sapling"
   },
   "render_type": "cutout"
 }
