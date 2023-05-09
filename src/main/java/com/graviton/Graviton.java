@@ -60,7 +60,8 @@ public class Graviton
 
             event.accept(GravitonBlocks.HELIOSITE_BRICKS);
             event.accept(GravitonBlocks.HELIOSITE_PILLAR);
-            event.accept(GravitonBlocks.CHISELED_HELIOSITE_BLOCK);;
+            event.accept(GravitonBlocks.CHISELED_HELIOSITE_BLOCK);
+            event.accept(GravitonItems.RAW_KARTHUULIUM);
             event.accept(GravitonItems.KARTHUULIUM_INGOT);
             event.accept(GravitonBlocks.KARTHUULIUM_ORE);
             event.accept(GravitonBlocks.KARTHUULIUM_BLOCK);
