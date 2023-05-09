@@ -42,6 +42,7 @@ public class Graviton
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if (event.getTab() == GravitonCreativeTabs.GRAVITON_TAB) {
+            event.accept(GravitonBlocks.COARSE_AETHER_DIRT);
             event.accept(GravitonBlocks.RED_SKYROOT_LEAVES);
             event.accept(GravitonBlocks.RED_SKYROOT_SAPLING);
             event.accept(GravitonBlocks.AETHER_SMITHING_TABLE);
@@ -61,6 +62,7 @@ public class Graviton
             event.accept(GravitonBlocks.HELIOSITE_BRICKS);
             event.accept(GravitonBlocks.HELIOSITE_PILLAR);
             event.accept(GravitonBlocks.CHISELED_HELIOSITE_BLOCK);
+            event.accept(GravitonItems.RAW_GRAVITITE);
             event.accept(GravitonItems.RAW_KARTHUULIUM);
             event.accept(GravitonItems.KARTHUULIUM_INGOT);
             event.accept(GravitonBlocks.KARTHUULIUM_ORE);
