@@ -24,6 +24,7 @@ public class GravitonBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Graviton.MOD_ID);
 
     public static final RegistryObject<Block> COARSE_AETHER_DIRT = registerBlock("coarse_aether_dirt", () -> new Block(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)));
+    public static final RegistryObject<Block> HOLY_GRAVEL = registerBlock("holygravel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
     public static final RegistryObject<Block> AERO_STALKS = registerBlock("aero_stalks", () -> new AeroStalksBlock());
 
     public static final RegistryObject<Block> KARTHUULIUM_BLOCK = registerBlock("karthuulium_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)));
