@@ -24,7 +24,15 @@ public class GravitonItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> BLOOD_ORANGE = ITEMS.register("blood_orange",
-            () -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(7).saturationMod(0.5F).build())));
+            () -> new Item(new Item.Properties().food(Foods.BLOOD_ORANGE)));
+
+    public static class Foods {
+        public static final FoodProperties BLOOD_ORANGE = new FoodProperties.Builder()
+                .nutrition(7)
+                .saturationMod(0.5F)
+                .build();
+
+    }
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
