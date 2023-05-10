@@ -67,6 +67,8 @@ public class Graviton
             event.accept(GravitonItems.KARTHUULIUM_INGOT);
             event.accept(GravitonBlocks.KARTHUULIUM_ORE);
             event.accept(GravitonBlocks.KARTHUULIUM_BLOCK);
+
+            event.accept(GravitonItems.BLOOD_ORANGE);
         }
     }
 

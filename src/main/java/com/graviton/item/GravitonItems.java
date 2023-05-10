@@ -6,6 +6,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.minecraft.world.food.FoodProperties;
 
 public class GravitonItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -21,6 +22,9 @@ public class GravitonItems {
 
     public static final RegistryObject<Item> RAW_KARTHUULIUM = ITEMS.register("raw_karthuulium",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BLOOD_ORANGE = ITEMS.register("blood_orange",
+            () -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(7).saturationMod(0.5F).build())));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
