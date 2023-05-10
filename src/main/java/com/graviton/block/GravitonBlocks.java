@@ -3,7 +3,7 @@ package com.graviton.block;
 import com.graviton.Graviton;
 import com.graviton.block.custom.AeroStalksBlock;
 import com.graviton.item.GravitonItems;
-import com.graviton.worldgen.tree.BlueSkyrootGrower;
+import com.graviton.worldgen.tree.RedSkyrootGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.BlockItem;
@@ -29,7 +29,7 @@ public class GravitonBlocks {
     public static final RegistryObject<Block> KARTHUULIUM_BLOCK = registerBlock("karthuulium_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)));
     public static final RegistryObject<Block> KARTHUULIUM_ORE = registerBlock("karthuulium_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)));
 
-    public static final RegistryObject<Block> AETHER_SMITHING_TABLE = registerBlock("aether_smithing_table", () -> new Block(BlockBehaviour.Properties.copy((Blocks.SMITHING_TABLE))));
+    public static final RegistryObject<Block> AETHER_SMITHING_TABLE = registerBlock("aether_smithing_table", () -> new SmithingTableBlock(BlockBehaviour.Properties.copy((Blocks.SMITHING_TABLE))));
 
     public static final RegistryObject<Block> HELIOSITE_ORE = registerBlock("heliosite_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
     public static final RegistryObject<Block> HELIOSITE_BLOCK = registerBlock("heliosite_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK)));
@@ -70,7 +70,7 @@ public class GravitonBlocks {
             });
 
     public static final RegistryObject<Block> RED_SKYROOT_SAPLING = registerBlock("red_skyroot_sapling",
-            () -> new SaplingBlock(new BlueSkyrootGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+            () -> new SaplingBlock(new RedSkyrootGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
