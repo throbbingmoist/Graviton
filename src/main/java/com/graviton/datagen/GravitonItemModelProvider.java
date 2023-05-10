@@ -19,6 +19,10 @@ public class GravitonItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        simpleItem(GravitonItems.RAW_GRAVITITE);
+        simpleItem(GravitonItems.RAW_KARTHUULIUM);
+        simpleItem(GravitonItems.HELIOSITE);
+        simpleItem(GravitonItems.KARTHUULIUM_INGOT);
     }
 
     private ItemModelBuilder saplingItem(RegistryObject<Block> item) {

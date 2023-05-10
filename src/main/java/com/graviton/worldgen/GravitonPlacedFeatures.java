@@ -17,12 +17,12 @@ import net.minecraft.world.level.levelgen.placement.PlacementModifier;
 import java.util.List;
 
 public class GravitonPlacedFeatures {
-    public static final ResourceKey<PlacedFeature> BLUE_SKYROOT_PLACED_KEY = createKey("blue_skyroot_placed");
+    public static final ResourceKey<PlacedFeature> RED_SKYROOT_PLACED_KEY = createKey("red_skyroot_placed");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
-        register(context, BLUE_SKYROOT_PLACED_KEY, configuredFeatures.getOrThrow(GravitonConfiguredFeatures.BLUE_SKYROOT_KEY),
+        register(context, RED_SKYROOT_PLACED_KEY, configuredFeatures.getOrThrow(GravitonConfiguredFeatures.RED_SKYROOT_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2), GravitonBlocks.RED_SKYROOT_SAPLING.get()));
     }
 

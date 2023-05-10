@@ -15,16 +15,17 @@ import net.minecraft.world.level.levelgen.feature.configurations.TreeConfigurati
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
+import net.minecraft.world.level.levelgen.feature.trunkplacers.ForkingTrunkPlacer;
 import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 
 public class GravitonConfiguredFeatures {
-    public static final ResourceKey<ConfiguredFeature<?, ?>> BLUE_SKYROOT_KEY = registerKey("blue_skyroot");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> RED_SKYROOT_KEY = registerKey("red_skyroot");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
 
-        register(context, BLUE_SKYROOT_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+        register(context, RED_SKYROOT_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(GravitonBlocks.COARSE_AETHER_DIRT.get()),
-                new StraightTrunkPlacer(5, 6, 3),
+                new ForkingTrunkPlacer(6, 1, 2),
                 BlockStateProvider.simple(GravitonBlocks.RED_SKYROOT_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 4),
                 new TwoLayersFeatureSize(1, 0, 2)).build());

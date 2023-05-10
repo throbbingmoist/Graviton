@@ -2,7 +2,7 @@
   "type": "minecraft:random_selector",
   "config": {
     "default": {
-      "feature": "graviton:redskyroot_smalltree",
+      "feature": "graviton:red_skyroot_small",
       "placement": [
         {
           "type": "minecraft:block_predicate_filter",
@@ -22,7 +22,7 @@
       {
         "chance": 0.31,
         "feature": {
-          "feature": "graviton:redskyroot_flattree",
+          "feature": "graviton:red_skyroot_flat",
           "placement": [
             {
               "type": "minecraft:block_predicate_filter",

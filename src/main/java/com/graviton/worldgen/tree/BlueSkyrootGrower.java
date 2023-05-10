@@ -11,6 +11,6 @@ public class BlueSkyrootGrower extends AbstractTreeGrower{
     @Nullable
     @Override
     protected ResourceKey<ConfiguredFeature<?, ?>> getConfiguredFeature(RandomSource p_222910_, boolean p_222911_) {
-        return GravitonConfiguredFeatures.BLUE_SKYROOT_KEY;
+        return GravitonConfiguredFeatures.RED_SKYROOT_KEY;
     }
 }
