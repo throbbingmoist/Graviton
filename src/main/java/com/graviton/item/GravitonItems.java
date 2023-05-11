@@ -1,14 +1,14 @@
 package com.graviton.item;
 
 import com.graviton.Graviton;
+import com.graviton.item.custom.AechorIceCream;
+import com.graviton.item.custom.AechorIceCreamMix;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Rarity;
 
 
 public class GravitonItems {
@@ -30,7 +30,7 @@ public class GravitonItems {
             () -> new Item(new Item.Properties().food(Foods.BLOOD_ORANGE)));
 
     public static final RegistryObject<Item> AECHOR_ICE_CREAM = ITEMS.register("aechor_ice_cream",
-            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.AECHOR_ICE_CREAM)));
+            () -> new AechorIceCream());
 
     public static final RegistryObject<Item> AECHOR_ICE_CREAM_MIX = ITEMS.register("aechor_ice_cream_mix",
             () -> new AechorIceCreamMix());
@@ -98,15 +98,9 @@ public class GravitonItems {
     public static final RegistryObject<Item> FRIED_MOA_EGG = ITEMS.register("fried_moa_egg",
             () -> new Item(new Item.Properties().food(Foods.FRIED_MOA_EGG)));
 
-
     public static class Foods {
         public static final FoodProperties BLOOD_ORANGE = new FoodProperties.Builder()
                 .nutrition(7)
-                .saturationMod(0.5F)
-                .build();
-
-        public static final FoodProperties AECHOR_ICE_CREAM = new FoodProperties.Builder()
-                .nutrition(2)
                 .saturationMod(0.5F)
                 .build();
 
