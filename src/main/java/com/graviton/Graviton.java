@@ -72,6 +72,26 @@ public class Graviton
             event.accept(GravitonItems.AECHOR_ICE_CREAM);
             event.accept(GravitonItems.AECHOR_ICE_CREAM_MIX);
             event.accept(GravitonItems.ENCHANTED_ICE_CREAM);
+            event.accept(GravitonItems.BERRY_PRESERVES);
+            event.accept(GravitonItems.ORANGE_MARMALADE);
+            event.accept(GravitonItems.BERRY_JAM_BREAD);
+            event.accept(GravitonItems.ORANGE_JAM_BREAD);
+            event.accept(GravitonItems.ETHERIC_STEW);
+            event.accept(GravitonItems.ETHERIC_RAMEN);
+            event.accept(GravitonItems.AUTUMNROOT_CHUNK);
+            event.accept(GravitonItems.AUTUMNROOT_PIE);
+            event.accept(GravitonItems.COCKATRICE_COCKTAIL);
+            event.accept(GravitonItems.SKYROOT_NECTAR_BUCKET);
+            event.accept(GravitonItems.WYNDBERRY_LOLLIPOP);
+            event.accept(GravitonItems.WHITE_APPLE_LOLLIPOP);
+            event.accept(GravitonItems.CHOCOLATE_LOLLIPOP);
+            event.accept(GravitonItems.CREAM_SODA_LOLLIPOP);
+            event.accept(GravitonItems.ORANGE_CREAM_LOLLIPOP);
+            event.accept(GravitonItems.AMBROSIAL_LOLLIPOP);
+            event.accept(GravitonItems.ENCHANTED_LOLLIPOP);
+            event.accept(GravitonItems.RAW_COCKATRICE);
+            event.accept(GravitonItems.COOKED_COCKATRICE);
+            event.accept(GravitonItems.FRIED_MOA_EGG);
         }
     }
 
