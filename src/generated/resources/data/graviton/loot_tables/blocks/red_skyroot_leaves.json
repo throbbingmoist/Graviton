@@ -18,8 +18,8 @@
                     {
                       "condition": "minecraft:match_tool",
                       "predicate": {
-                        "items": [
-                          "minecraft:shears"
+                        "tag": [
+                          "forge:shears"
                         ]
                       }
                     },
@@ -109,7 +109,7 @@
                 "condition": "minecraft:match_tool",
                 "predicate": {
                   "items": [
-                    "minecraft:shears"
+                    "forge:shears"
                   ]
                 }
               },
@@ -137,7 +137,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "graviton:coarse_aether_dirt",
+          "name": "graviton:blood_orange",
           "conditions": [
             {
               "condition": "minecraft:survives_explosion"
@@ -166,7 +166,7 @@
                 "condition": "minecraft:match_tool",
                 "predicate": {
                   "items": [
-                    "minecraft:shears"
+                    "forge:shears"
                   ]
                 }
               },
