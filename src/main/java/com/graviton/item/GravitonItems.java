@@ -26,9 +26,33 @@ public class GravitonItems {
     public static final RegistryObject<Item> BLOOD_ORANGE = ITEMS.register("blood_orange",
             () -> new Item(new Item.Properties().food(Foods.BLOOD_ORANGE)));
 
+    public static final RegistryObject<Item> AECHOR_ICE_CREAM = ITEMS.register("aechor_ice_cream",
+            () -> new Item(new Item.Properties().food(Foods.AECHOR_ICE_CREAM)));
+
+    public static final RegistryObject<Item> AECHOR_ICE_CREAM_MIX = ITEMS.register("aechor_ice_cream_mix",
+            () -> new Item(new Item.Properties().food(Foods.AECHOR_ICE_CREAM_MIX)));
+
+    public static final RegistryObject<Item> ENCHANTED_ICE_CREAM = ITEMS.register("enchanted_ice_cream",
+            () -> new Item(new Item.Properties().food(Foods.ENCHANTED_ICE_CREAM)));
+
     public static class Foods {
         public static final FoodProperties BLOOD_ORANGE = new FoodProperties.Builder()
                 .nutrition(7)
+                .saturationMod(0.5F)
+                .build();
+
+        public static final FoodProperties AECHOR_ICE_CREAM = new FoodProperties.Builder()
+                .nutrition(1)
+                .saturationMod(0.5F)
+                .build();
+
+        public static final FoodProperties AECHOR_ICE_CREAM_MIX = new FoodProperties.Builder()
+                .nutrition(1)
+                .saturationMod(0.5F)
+                .build();
+
+        public static final FoodProperties ENCHANTED_ICE_CREAM = new FoodProperties.Builder()
+                .nutrition(1)
                 .saturationMod(0.5F)
                 .build();
 

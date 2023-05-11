@@ -69,6 +69,9 @@ public class Graviton
             event.accept(GravitonBlocks.KARTHUULIUM_BLOCK);
 
             event.accept(GravitonItems.BLOOD_ORANGE);
+            event.accept(GravitonItems.AECHOR_ICE_CREAM);
+            event.accept(GravitonItems.AECHOR_ICE_CREAM_MIX);
+            event.accept(GravitonItems.ENCHANTED_ICE_CREAM);
         }
     }
 
