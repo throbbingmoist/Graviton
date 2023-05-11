@@ -108,7 +108,7 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "items": [
+                  "tag": [
                     "forge:shears"
                   ]
                 }
@@ -165,7 +165,7 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "items": [
+                  "tag": [
                     "forge:shears"
                   ]
                 }
