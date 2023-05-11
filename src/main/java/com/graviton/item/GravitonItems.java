@@ -7,6 +7,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Rarity;
+
 
 public class GravitonItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -27,19 +30,19 @@ public class GravitonItems {
             () -> new Item(new Item.Properties().food(Foods.BLOOD_ORANGE)));
 
     public static final RegistryObject<Item> AECHOR_ICE_CREAM = ITEMS.register("aechor_ice_cream",
-            () -> new Item(new Item.Properties().food(Foods.AECHOR_ICE_CREAM)));
+            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.AECHOR_ICE_CREAM)));
 
     public static final RegistryObject<Item> AECHOR_ICE_CREAM_MIX = ITEMS.register("aechor_ice_cream_mix",
-            () -> new Item(new Item.Properties().food(Foods.AECHOR_ICE_CREAM_MIX)));
+            () -> new AechorIceCreamMix());
 
     public static final RegistryObject<Item> ENCHANTED_ICE_CREAM = ITEMS.register("enchanted_ice_cream",
-            () -> new Item(new Item.Properties().food(Foods.ENCHANTED_ICE_CREAM)));
+            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.ENCHANTED_ICE_CREAM)));
 
     public static final RegistryObject<Item> BERRY_PRESERVES = ITEMS.register("berry_preserves",
-            () -> new Item(new Item.Properties().food(Foods.BERRY_PRESERVES)));
+            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.BERRY_PRESERVES)));
 
     public static final RegistryObject<Item> ORANGE_MARMALADE = ITEMS.register("orange_marmalade",
-            () -> new Item(new Item.Properties().food(Foods.ORANGE_MARMALADE)));
+            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.ORANGE_MARMALADE)));
 
     public static final RegistryObject<Item> BERRY_JAM_BREAD = ITEMS.register("berry_jam_bread",
             () -> new Item(new Item.Properties().food(Foods.BERRY_JAM_BREAD)));
@@ -48,16 +51,16 @@ public class GravitonItems {
             () -> new Item(new Item.Properties().food(Foods.ORANGE_JAM_BREAD)));
 
     public static final RegistryObject<Item> ETHERIC_STEW = ITEMS.register("etheric_stew",
-            () -> new Item(new Item.Properties().food(Foods.ETHERIC_STEW)));
+            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.ETHERIC_STEW)));
 
     public static final RegistryObject<Item> ETHERIC_RAMEN = ITEMS.register("etheric_ramen",
-            () -> new Item(new Item.Properties().food(Foods.ETHERIC_RAMEN)));
+            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.ETHERIC_RAMEN)));
 
     public static final RegistryObject<Item> COCKATRICE_COCKTAIL = ITEMS.register("cockatrice_cocktail",
-            () -> new Item(new Item.Properties().food(Foods.COCKATRICE_COCKTAIL)));
+            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.COCKATRICE_COCKTAIL)));
 
     public static final RegistryObject<Item> SKYROOT_NECTAR_BUCKET = ITEMS.register("skyroot_nectar_bucket",
-            () -> new Item(new Item.Properties().food(Foods.SKYROOT_NECTAR_BUCKET)));
+            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.SKYROOT_NECTAR_BUCKET)));
 
     public static final RegistryObject<Item> RAW_COCKATRICE = ITEMS.register("raw_cockatrice",
             () -> new Item(new Item.Properties().food(Foods.RAW_COCKATRICE)));
@@ -103,12 +106,7 @@ public class GravitonItems {
                 .build();
 
         public static final FoodProperties AECHOR_ICE_CREAM = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
-                .build();
-
-        public static final FoodProperties AECHOR_ICE_CREAM_MIX = new FoodProperties.Builder()
-                .nutrition(1)
+                .nutrition(2)
                 .saturationMod(0.5F)
                 .build();
 
