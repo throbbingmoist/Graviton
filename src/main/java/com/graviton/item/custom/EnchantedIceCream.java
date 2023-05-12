@@ -12,7 +12,7 @@ public class EnchantedIceCream extends Item {
     public EnchantedIceCream() {
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
                 .nutrition(8)
-                .saturationMod(0.6F)
+                .saturationMod(0.5F)
                 .build()));
     }
 

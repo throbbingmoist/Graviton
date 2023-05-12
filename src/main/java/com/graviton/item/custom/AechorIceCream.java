@@ -13,8 +13,8 @@ import net.minecraft.world.level.Level;
 public class AechorIceCream extends Item {
     public AechorIceCream(){
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
-                .nutrition(7)
-                .saturationMod(0.3F)
+                .nutrition(3)
+                .saturationMod(0.5F)
                 .effect(() -> new MobEffectInstance(MobEffects.POISON, 200, 0),0.3F)
                 .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 100, 0),0.8F)
                 .build()));

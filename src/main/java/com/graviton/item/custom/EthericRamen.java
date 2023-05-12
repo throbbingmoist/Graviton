@@ -14,7 +14,7 @@ public class EthericRamen extends Item {
     public EthericRamen(){
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
                 .nutrition(12)
-                .saturationMod(0.8F)
+                .saturationMod(0.5F)
                 .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 1600, 0),1.0F)
                 .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 800, 0),0.6F)
                 .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 300, 0),0.4F)
