@@ -2,6 +2,8 @@ package com.graviton.item;
 
 import com.graviton.Graviton;
 import com.graviton.item.custom.*;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -98,78 +100,86 @@ public class GravitonItems {
 
     public static class Foods {
         public static final FoodProperties BLOOD_ORANGE = new FoodProperties.Builder()
-                .nutrition(7)
-                .saturationMod(0.5F)
+                .nutrition(6)
+                .saturationMod(0.4F)
+                .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 40, 0),0.2F)
                 .build();
 
         public static final FoodProperties BERRY_JAM_BREAD = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
+                .nutrition(6)
+                .saturationMod(0.6F)
                 .build();
 
         public static final FoodProperties ORANGE_JAM_BREAD = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
+                .nutrition(8)
+                .saturationMod(0.3F)
+                .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 40, 0),0.5F)
                 .build();
 
         public static final FoodProperties AUTUMNROOT_CHUNK = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
+                .nutrition(5)
+                .saturationMod(0.3F)
                 .build();
 
         public static final FoodProperties AUTUMNROOT_PIE = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
+                .nutrition(7)
+                .saturationMod(0.4F)
                 .build();
 
         public static final FoodProperties WYNDBERRY_LOLLIPOP = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
+                .nutrition(5)
+                .saturationMod(0.4F)
                 .build();
 
         public static final FoodProperties WHITE_APPLE_LOLLIPOP = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
+                .nutrition(4)
+                .saturationMod(0.4F)
                 .build();
 
         public static final FoodProperties CHOCOLATE_LOLLIPOP = new FoodProperties.Builder()
-                .nutrition(1)
+                .nutrition(3)
                 .saturationMod(0.5F)
                 .build();
 
         public static final FoodProperties CREAM_SODA_LOLLIPOP = new FoodProperties.Builder()
-                .nutrition(1)
+                .nutrition(5)
                 .saturationMod(0.5F)
                 .build();
 
         public static final FoodProperties ORANGE_CREAM_LOLLIPOP = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
+                .nutrition(7)
+                .saturationMod(0.4F)
                 .build();
 
         public static final FoodProperties AMBROSIAL_LOLLIPOP = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
+                .nutrition(0)
+                .saturationMod(0.0F)
+                .alwaysEat()
+                .effect(() -> new MobEffectInstance(MobEffects.HEAL),1.0F)
                 .build();
 
         public static final FoodProperties ENCHANTED_LOLLIPOP = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
+                .nutrition(8)
+                .saturationMod(0.8F)
                 .build();
 
         public static final FoodProperties FRIED_MOA_EGG = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
+                .nutrition(6)
+                .saturationMod(0.6F)
                 .build();
 
         public static final FoodProperties RAW_COCKATRICE = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
+                .nutrition(4)
+                .saturationMod(0.3F)
+                .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0),0.8F)
+                .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 500, 0),1.0F)
+                .effect(() -> new MobEffectInstance(MobEffects.POISON, 600, 1),1.0F)
                 .build();
 
         public static final FoodProperties COOKED_COCKATRICE = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
+                .nutrition(6)
+                .saturationMod(0.6F)
+                .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0),0.8F)
                 .build();
 
     }

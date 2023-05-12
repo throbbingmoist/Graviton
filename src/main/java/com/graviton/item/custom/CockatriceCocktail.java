@@ -16,6 +16,7 @@ public class CockatriceCocktail extends Item {
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
                 .nutrition(4)
                 .saturationMod(0.5F)
+                .alwaysEat()
                 .effect(() -> new MobEffectInstance(MobEffects.POISON, 600, 2),1.0F)
                 .effect(() -> new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 2000, 1),0.8F)
                 .effect(() -> new MobEffectInstance(MobEffects.WEAKNESS, 2000, 1),0.8F)
