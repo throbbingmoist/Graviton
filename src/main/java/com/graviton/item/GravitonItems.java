@@ -166,6 +166,7 @@ public class GravitonItems {
         public static final FoodProperties FRIED_MOA_EGG = new FoodProperties.Builder()
                 .nutrition(6)
                 .saturationMod(0.6F)
+                .meat()
                 .build();
 
         public static final FoodProperties RAW_COCKATRICE = new FoodProperties.Builder()
@@ -179,6 +180,7 @@ public class GravitonItems {
         public static final FoodProperties COOKED_COCKATRICE = new FoodProperties.Builder()
                 .nutrition(6)
                 .saturationMod(0.6F)
+                .meat()
                 .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0),0.8F)
                 .build();
 
