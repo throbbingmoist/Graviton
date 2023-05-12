@@ -1,15 +1,13 @@
 package com.graviton.item;
 
 import com.graviton.Graviton;
-import com.graviton.item.custom.AechorIceCream;
-import com.graviton.item.custom.AechorIceCreamMix;
+import com.graviton.item.custom.*;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.food.FoodProperties;
-
 
 public class GravitonItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -36,13 +34,13 @@ public class GravitonItems {
             () -> new AechorIceCreamMix());
 
     public static final RegistryObject<Item> ENCHANTED_ICE_CREAM = ITEMS.register("enchanted_ice_cream",
-            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.ENCHANTED_ICE_CREAM)));
+            () -> new EnchantedIceCream());
 
     public static final RegistryObject<Item> BERRY_PRESERVES = ITEMS.register("berry_preserves",
-            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.BERRY_PRESERVES)));
+            () -> new BerryPreserves());
 
     public static final RegistryObject<Item> ORANGE_MARMALADE = ITEMS.register("orange_marmalade",
-            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.ORANGE_MARMALADE)));
+            () -> new OrangeMarmalade());
 
     public static final RegistryObject<Item> BERRY_JAM_BREAD = ITEMS.register("berry_jam_bread",
             () -> new Item(new Item.Properties().food(Foods.BERRY_JAM_BREAD)));
@@ -51,16 +49,16 @@ public class GravitonItems {
             () -> new Item(new Item.Properties().food(Foods.ORANGE_JAM_BREAD)));
 
     public static final RegistryObject<Item> ETHERIC_STEW = ITEMS.register("etheric_stew",
-            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.ETHERIC_STEW)));
+            () -> new EthericStew());
 
     public static final RegistryObject<Item> ETHERIC_RAMEN = ITEMS.register("etheric_ramen",
-            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.ETHERIC_RAMEN)));
+            () -> new EthericRamen());
 
     public static final RegistryObject<Item> COCKATRICE_COCKTAIL = ITEMS.register("cockatrice_cocktail",
-            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.COCKATRICE_COCKTAIL)));
+            () -> new CockatriceCocktail());
 
     public static final RegistryObject<Item> SKYROOT_NECTAR_BUCKET = ITEMS.register("skyroot_nectar_bucket",
-            () -> new Item(new Item.Properties().stacksTo(1).food(Foods.SKYROOT_NECTAR_BUCKET)));
+            () -> new SkyrootNectarBucket());
 
     public static final RegistryObject<Item> RAW_COCKATRICE = ITEMS.register("raw_cockatrice",
             () -> new Item(new Item.Properties().food(Foods.RAW_COCKATRICE)));
@@ -104,21 +102,6 @@ public class GravitonItems {
                 .saturationMod(0.5F)
                 .build();
 
-        public static final FoodProperties ENCHANTED_ICE_CREAM = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
-                .build();
-
-        public static final FoodProperties BERRY_PRESERVES = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
-                .build();
-
-        public static final FoodProperties ORANGE_MARMALADE = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
-                .build();
-
         public static final FoodProperties BERRY_JAM_BREAD = new FoodProperties.Builder()
                 .nutrition(1)
                 .saturationMod(0.5F)
@@ -129,32 +112,12 @@ public class GravitonItems {
                 .saturationMod(0.5F)
                 .build();
 
-        public static final FoodProperties ETHERIC_STEW = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
-                .build();
-
-        public static final FoodProperties ETHERIC_RAMEN = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
-                .build();
-
         public static final FoodProperties AUTUMNROOT_CHUNK = new FoodProperties.Builder()
                 .nutrition(1)
                 .saturationMod(0.5F)
                 .build();
 
         public static final FoodProperties AUTUMNROOT_PIE = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
-                .build();
-
-        public static final FoodProperties COCKATRICE_COCKTAIL = new FoodProperties.Builder()
-                .nutrition(1)
-                .saturationMod(0.5F)
-                .build();
-
-        public static final FoodProperties SKYROOT_NECTAR_BUCKET = new FoodProperties.Builder()
                 .nutrition(1)
                 .saturationMod(0.5F)
                 .build();
