@@ -128,45 +128,52 @@ public class GravitonItems {
                 .build();
 
         public static final FoodProperties AUTUMNROOT_PIE = new FoodProperties.Builder()
-                .nutrition(7)
-                .saturationMod(0.4F)
+                .nutrition(6)
+                .saturationMod(0.5F)
                 .build();
 
         public static final FoodProperties WYNDBERRY_LOLLIPOP = new FoodProperties.Builder()
-                .nutrition(5)
-                .saturationMod(0.4F)
+                .nutrition(4)
+                .saturationMod(0.5F)
+                .fast()
                 .build();
 
         public static final FoodProperties WHITE_APPLE_LOLLIPOP = new FoodProperties.Builder()
                 .nutrition(4)
-                .saturationMod(0.4F)
+                .saturationMod(0.5F)
+                .fast()
                 .build();
 
         public static final FoodProperties CHOCOLATE_LOLLIPOP = new FoodProperties.Builder()
-                .nutrition(3)
+                .nutrition(4)
                 .saturationMod(0.5F)
+                .fast()
                 .build();
 
         public static final FoodProperties CREAM_SODA_LOLLIPOP = new FoodProperties.Builder()
-                .nutrition(5)
+                .nutrition(4)
                 .saturationMod(0.5F)
+                .fast()
                 .build();
 
         public static final FoodProperties ORANGE_CREAM_LOLLIPOP = new FoodProperties.Builder()
-                .nutrition(7)
-                .saturationMod(0.4F)
+                .nutrition(4)
+                .saturationMod(0.6F)
+                .fast()
                 .build();
 
         public static final FoodProperties AMBROSIAL_LOLLIPOP = new FoodProperties.Builder()
                 .nutrition(0)
                 .saturationMod(0.0F)
                 .alwaysEat()
+                .fast()
                 .effect(() -> new MobEffectInstance(MobEffects.HEAL),1.0F)
                 .build();
 
         public static final FoodProperties ENCHANTED_LOLLIPOP = new FoodProperties.Builder()
                 .nutrition(8)
-                .saturationMod(0.8F)
+                .saturationMod(0.4F)
+                .fast()
                 .build();
 
         public static final FoodProperties FRIED_MOA_EGG = new FoodProperties.Builder()
@@ -176,8 +183,9 @@ public class GravitonItems {
                 .build();
 
         public static final FoodProperties RAINBOW_CAKE_SLICE = new FoodProperties.Builder()
-                .nutrition(7)
-                .saturationMod(0.42F)
+                .nutrition(4)
+                .saturationMod(0.4F)
+                .fast()
                 .build();
 
         public static final FoodProperties RAW_COCKATRICE = new FoodProperties.Builder()
