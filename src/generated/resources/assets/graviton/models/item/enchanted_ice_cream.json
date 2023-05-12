@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "graviton:item/enchanted_ice_cream"
+    "layer0": "graviton:item/enchanted_ice_cream",
+    "particle": "graviton:item/eating/enchanted_ice_cream_eating"
   }
 }

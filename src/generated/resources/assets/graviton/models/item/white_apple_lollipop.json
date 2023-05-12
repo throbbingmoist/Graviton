@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "graviton:item/white_apple_lollipop"
+    "layer0": "graviton:item/white_apple_lollipop",
+    "particle": "graviton:item/eating/white_apple_lollipop_eating"
   }
 }

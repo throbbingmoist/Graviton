@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "graviton:item/cooked_cockatrice"
+    "layer0": "graviton:item/cooked_cockatrice",
+    "particle": "graviton:item/eating/cooked_cockatrice_eating"
   }
 }

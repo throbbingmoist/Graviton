@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "graviton:item/ambrosial_lollipop"
+    "layer0": "graviton:item/ambrosial_lollipop",
+    "particle": "graviton:item/eating/ambrosial_lollipop_eating"
   }
 }
