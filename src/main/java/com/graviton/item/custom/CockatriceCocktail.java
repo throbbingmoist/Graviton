@@ -1,5 +1,7 @@
 package com.graviton.item.custom;
 
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodProperties;
@@ -12,8 +14,12 @@ import net.minecraft.world.level.Level;
 public class CockatriceCocktail extends Item {
     public CockatriceCocktail(){
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
-                .nutrition(2)
-                .saturationMod(0.2F)
+                .nutrition(4)
+                .saturationMod(0.5F)
+                .effect(() -> new MobEffectInstance(MobEffects.POISON, 600, 2),1.0F)
+                .effect(() -> new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 2000, 1),0.8F)
+                .effect(() -> new MobEffectInstance(MobEffects.WEAKNESS, 2000, 1),0.8F)
+                .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 600, 0),1.0F)
                 .build()));
     }
 

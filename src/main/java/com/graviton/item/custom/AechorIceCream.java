@@ -1,5 +1,7 @@
 package com.graviton.item.custom;
 
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodProperties;
@@ -11,8 +13,10 @@ import net.minecraft.world.level.Level;
 public class AechorIceCream extends Item {
     public AechorIceCream(){
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
-                .nutrition(2)
-                .saturationMod(0.2F)
+                .nutrition(7)
+                .saturationMod(0.3F)
+                .effect(() -> new MobEffectInstance(MobEffects.POISON, 200, 0),0.3F)
+                .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 100, 0),0.8F)
                 .build()));
     }
 

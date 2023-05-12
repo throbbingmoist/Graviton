@@ -11,8 +11,8 @@ import net.minecraft.world.level.Level;
 public class EnchantedIceCream extends Item {
     public EnchantedIceCream() {
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
-                .nutrition(2)
-                .saturationMod(0.2F)
+                .nutrition(8)
+                .saturationMod(0.6F)
                 .build()));
     }
 

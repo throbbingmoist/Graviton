@@ -1,5 +1,7 @@
 package com.graviton.item.custom;
 
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodProperties;
@@ -11,8 +13,11 @@ import net.minecraft.world.level.Level;
 public class EthericRamen extends Item {
     public EthericRamen(){
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
-                .nutrition(2)
-                .saturationMod(0.2F)
+                .nutrition(12)
+                .saturationMod(0.8F)
+                .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 1600, 0),1.0F)
+                .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 800, 0),0.6F)
+                .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 300, 0),0.4F)
                 .build()));
     }
 
