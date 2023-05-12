@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "graviton:item/aechor_ice_cream"
+  }
+}

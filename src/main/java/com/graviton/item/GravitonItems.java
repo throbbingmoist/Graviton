@@ -23,6 +23,9 @@ public class GravitonItems {
     public static final RegistryObject<Item> RAW_GRAVITITE = ITEMS.register("raw_gravitite",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> GRAVITITE_PLATE = ITEMS.register("gravitite_plate",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> RAW_KARTHUULIUM = ITEMS.register("raw_karthuulium",
             () -> new Item(new Item.Properties()));
 
@@ -98,6 +101,9 @@ public class GravitonItems {
     public static final RegistryObject<Item> FRIED_MOA_EGG = ITEMS.register("fried_moa_egg",
             () -> new Item(new Item.Properties().food(Foods.FRIED_MOA_EGG)));
 
+    public static final RegistryObject<Item> RAINBOW_CAKE_SLICE = ITEMS.register("rainbow_cake_slice",
+            () -> new Item(new Item.Properties().food(Foods.RAINBOW_CAKE_SLICE)));
+
     public static class Foods {
         public static final FoodProperties BLOOD_ORANGE = new FoodProperties.Builder()
                 .nutrition(6)
@@ -167,6 +173,11 @@ public class GravitonItems {
                 .nutrition(6)
                 .saturationMod(0.6F)
                 .meat()
+                .build();
+
+        public static final FoodProperties RAINBOW_CAKE_SLICE = new FoodProperties.Builder()
+                .nutrition(7)
+                .saturationMod(0.42F)
                 .build();
 
         public static final FoodProperties RAW_COCKATRICE = new FoodProperties.Builder()
