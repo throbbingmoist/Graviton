@@ -41,14 +41,14 @@ public class GravitonBlocks {
     public static final RegistryObject<Block> HELIOSITE_STAIRS = registerBlock("heliosite_stairs", () -> new StairBlock(() -> GravitonBlocks.HELIOSITE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.QUARTZ_STAIRS)));
     public static final RegistryObject<Block> HELIOSITE_WALL = registerBlock("heliosite_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(1.5f).requiresCorrectToolForDrops()));
+                    .strength(0.8f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> SMOOTH_HELIOSITE_BLOCK = registerBlock("smooth_heliosite_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.SMOOTH_QUARTZ)));
     public static final RegistryObject<Block> SMOOTH_HELIOSITE_SLAB = registerBlock("smooth_heliosite_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_QUARTZ_SLAB)));
     public static final RegistryObject<Block> SMOOTH_HELIOSITE_STAIRS = registerBlock("smooth_heliosite_stairs", () -> new StairBlock(() -> GravitonBlocks.SMOOTH_HELIOSITE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SMOOTH_QUARTZ_STAIRS)));
     public static final RegistryObject<Block> SMOOTH_HELIOSITE_WALL = registerBlock("smooth_heliosite_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(1.5f).requiresCorrectToolForDrops()));
+                    .strength(0.8f).requiresCorrectToolForDrops()));
 
 
 
