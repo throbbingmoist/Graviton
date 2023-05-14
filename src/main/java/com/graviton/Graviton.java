@@ -47,6 +47,8 @@ public class Graviton
             event.accept(GravitonBlocks.RED_SKYROOT_SAPLING);
             event.accept(GravitonBlocks.AETHER_SMITHING_TABLE);
             event.accept(GravitonBlocks.AERO_STALKS);
+            event.accept(GravitonBlocks.HOLY_GRAVEL);
+
             event.accept(GravitonItems.HELIOSITE);
             event.accept(GravitonBlocks.HELIOSITE_ORE);
             event.accept(GravitonBlocks.HELIOSITE_BLOCK);
