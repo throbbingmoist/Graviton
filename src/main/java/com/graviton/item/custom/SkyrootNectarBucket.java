@@ -11,6 +11,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
 
+import com.aetherteam.aether.item.AetherItems;
+
 public class SkyrootNectarBucket extends Item {
     public SkyrootNectarBucket(){
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
@@ -30,7 +32,7 @@ public class SkyrootNectarBucket extends Item {
     }
     @Override
     public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
-        ItemStack retval = new ItemStack(Items.BUCKET);
+        ItemStack retval = new ItemStack(AetherItems.SKYROOT_BUCKET.get());
         super.finishUsingItem(itemstack, world, entity);
         if (itemstack.isEmpty()) {
             return retval;

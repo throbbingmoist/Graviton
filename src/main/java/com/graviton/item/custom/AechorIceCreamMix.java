@@ -11,13 +11,15 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 
+import com.aetherteam.aether.effect.AetherEffects;
+
 public class AechorIceCreamMix extends Item {
     public AechorIceCreamMix(){
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
                 .nutrition(2)
                 .saturationMod(0.2F)
-                .effect(() -> new MobEffectInstance(MobEffects.POISON, 300, 0),1.0F)
-                .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200, 0),1.0F)
+                .effect(() -> new MobEffectInstance(AetherEffects.INEBRIATION.get(), 300, 0),1.0F)
+                .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 200, 0),0.8F)
                 .build()));
     }
 

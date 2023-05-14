@@ -11,6 +11,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.food.FoodProperties;
 
+import com.aetherteam.aether.effect.AetherEffects;
+
 public class GravitonItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Graviton.MOD_ID);
@@ -192,15 +194,14 @@ public class GravitonItems {
                 .nutrition(4)
                 .saturationMod(0.3F)
                 .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0),0.8F)
-                .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 500, 0),1.0F)
-                .effect(() -> new MobEffectInstance(MobEffects.POISON, 600, 1),1.0F)
+                .effect(() -> new MobEffectInstance(AetherEffects.INEBRIATION.get(), 600, 0),1.0F)
                 .build();
 
         public static final FoodProperties COOKED_COCKATRICE = new FoodProperties.Builder()
                 .nutrition(6)
                 .saturationMod(0.6F)
                 .meat()
-                .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0),0.8F)
+                .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0),0.5F)
                 .build();
 
     }
