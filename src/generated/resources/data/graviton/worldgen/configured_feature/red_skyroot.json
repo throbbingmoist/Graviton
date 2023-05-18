@@ -38,6 +38,26 @@
             }
           ]
         }
+      },
+      {
+        "chance": 0.02,
+        "feature": {
+          "feature": "graviton:red_skyroot_rare",
+          "placement": [
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:would_survive",
+                "state": {
+                  "Name": "graviton:red_skyroot_sapling",
+                  "Properties": {
+                    "stage": "0"
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     ]
   }
