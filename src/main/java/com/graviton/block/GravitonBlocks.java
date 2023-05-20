@@ -1,5 +1,6 @@
 package com.graviton.block;
 
+import com.aetherteam.aether.block.AetherBlocks;
 import com.graviton.Graviton;
 import com.graviton.block.custom.AeroStalksBlock;
 import com.graviton.item.GravitonItems;
@@ -54,6 +55,24 @@ public class GravitonBlocks {
 
     public static final RegistryObject<Block> RED_SKYROOT_LEAVES = registerBlock("red_skyroot_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 30;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 60;
+                }
+            });
+
+    public static final RegistryObject<Block> DARK_RED_SKYROOT_LEAVES = registerBlock("dark_red_skyroot_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).lightLevel(s -> 1)) {
                 @Override
                 public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
                     return true;
