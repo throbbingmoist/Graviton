@@ -1,7 +1,6 @@
 {
-  "parent": "minecraft:block/cube_column",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "end": "graviton:block/heliosite_block",
-    "side": "graviton:block/heliosite_block"
+    "all": "graviton:block/heliosite_block"
   }
 }

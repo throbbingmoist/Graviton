@@ -1,0 +1,38 @@
+{
+  "variants": {
+    "snowy=false": [
+      {
+        "model": "graviton:block/crystalline_aether_grass_block"
+      },
+      {
+        "model": "graviton:block/crystalline_aether_grass_block",
+        "y": 90
+      },
+      {
+        "model": "graviton:block/crystalline_aether_grass_block",
+        "y": 180
+      },
+      {
+        "model": "graviton:block/crystalline_aether_grass_block",
+        "y": 270
+      }
+    ],
+    "snowy=true": [
+      {
+        "model": "aether:block/aether_grass_block_snow"
+      },
+      {
+        "model": "aether:block/aether_grass_block_snow",
+        "y": 90
+      },
+      {
+        "model": "aether:block/aether_grass_block_snow",
+        "y": 180
+      },
+      {
+        "model": "aether:block/aether_grass_block_snow",
+        "y": 270
+      }
+    ]
+  }
+}

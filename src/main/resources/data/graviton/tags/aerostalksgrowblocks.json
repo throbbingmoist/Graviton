@@ -18,6 +18,7 @@
     "deep_aether:aether_moss_block",
     "deep_aether:aether_mud",
     "deep_aether:golden_heights_grass_block",
-    "minecraft:podzol"
+    "minecraft:podzol",
+    "graviton:crystalline_aether_grass_block"
   ]
 }

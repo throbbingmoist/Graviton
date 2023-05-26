@@ -3,6 +3,7 @@ package com.graviton.block;
 import com.aetherteam.aether.block.AetherBlocks;
 import com.graviton.Graviton;
 import com.graviton.block.custom.AeroStalksBlock;
+import com.graviton.block.custom.CrystallineAetherGrassBlock;
 import com.graviton.item.GravitonItems;
 import com.graviton.worldgen.tree.RedSkyrootGrower;
 import net.minecraft.core.BlockPos;
@@ -14,7 +15,12 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -24,6 +30,20 @@ import java.util.function.Supplier;
 public class GravitonBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Graviton.MOD_ID);
 
+    @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    public static class ClientSideHandler {
+        @SubscribeEvent
+        public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+            CrystallineAetherGrassBlock.blockColorLoad(event);
+        }
+
+        @SubscribeEvent
+        public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
+            CrystallineAetherGrassBlock.itemColorLoad(event);
+        }//Crystalline Aether
+    }
+    public static final RegistryObject<Block> CRYSTALLINE_AETHER_GRASS_BLOCK = registerBlock("crystalline_aether_grass_block", () -> new CrystallineAetherGrassBlock(Block.Properties.of(Material.GRASS, MaterialColor.WARPED_WART_BLOCK).randomTicks().strength(0.2F).sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> DEBUG_CRYSTALLINE_INVENTORY = registerBlock("debug_crystalline_inventory", () -> new Block(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)));
     public static final RegistryObject<Block> COARSE_AETHER_DIRT = registerBlock("coarse_aether_dirt", () -> new Block(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)));
     public static final RegistryObject<Block> HOLY_GRAVEL = registerBlock("holygravel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
     public static final RegistryObject<Block> AERO_STALKS = registerBlock("aero_stalks", () -> new AeroStalksBlock());

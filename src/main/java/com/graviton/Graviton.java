@@ -42,6 +42,7 @@ public class Graviton
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if (event.getTab() == GravitonCreativeTabs.GRAVITON_TAB) {
+            event.accept(GravitonBlocks.CRYSTALLINE_AETHER_GRASS_BLOCK);
             event.accept(GravitonBlocks.COARSE_AETHER_DIRT);
             event.accept(GravitonBlocks.RED_SKYROOT_LEAVES);
             event.accept(GravitonBlocks.DARK_RED_SKYROOT_LEAVES);

@@ -16,7 +16,7 @@ public class OrangeMarmalade extends Item {
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
                 .nutrition(6)
                 .saturationMod(0.4F)
-                .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0),0.5F)
+                .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 80, 0),0.5F)
                 .build()));
     }
 
