@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "bottom": "graviton:block/aether_dirt",
+    "bottom": "aether:block/natural/aether_dirt",
     "side": "graviton:block/debug_crystalline_inventory_side",
     "top": "graviton:block/debug_crystalline_inventory_top"
   }

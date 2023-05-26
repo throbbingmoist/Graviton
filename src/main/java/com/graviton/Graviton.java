@@ -46,6 +46,7 @@ public class Graviton
             event.accept(GravitonBlocks.COARSE_AETHER_DIRT);
             event.accept(GravitonBlocks.RED_SKYROOT_LEAVES);
             event.accept(GravitonBlocks.DARK_RED_SKYROOT_LEAVES);
+            event.accept(GravitonBlocks.DARK_RED_GLOWING_LEAVES);
             event.accept(GravitonBlocks.RED_SKYROOT_SAPLING);
             event.accept(GravitonBlocks.AETHER_SMITHING_TABLE);
             event.accept(GravitonBlocks.AERO_STALKS);

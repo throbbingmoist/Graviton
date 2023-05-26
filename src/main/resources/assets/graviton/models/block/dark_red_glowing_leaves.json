@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "graviton:block/dark_red_glowing_leaves"
+  }
+}
