@@ -3,6 +3,8 @@ package com.graviton.block;
 import com.aetherteam.aether.block.AetherBlocks;
 import com.graviton.Graviton;
 import com.graviton.block.custom.AeroStalksBlock;
+import com.graviton.block.custom.BlueFrozenSwetBlock;
+import com.graviton.block.custom.BlueSwetBlock;
 import com.graviton.block.custom.CrystallineAetherGrassBlock;
 import com.graviton.item.GravitonItems;
 import com.graviton.worldgen.tree.RedSkyrootGrower;
@@ -47,6 +49,9 @@ public class GravitonBlocks {
     public static final RegistryObject<Block> COARSE_AETHER_DIRT = registerBlock("coarse_aether_dirt", () -> new Block(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)));
     public static final RegistryObject<Block> HOLY_GRAVEL = registerBlock("holygravel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
     public static final RegistryObject<Block> AERO_STALKS = registerBlock("aero_stalks", () -> new AeroStalksBlock());
+
+    public static final RegistryObject<Block> BLUE_SWET_BLOCK = registerBlock("blue_swet_block", () -> new BlueSwetBlock());
+    public static final RegistryObject<Block> BLUE_FROZEN_SWET_BLOCK = registerBlock("blue_frozen_swet_block", () -> new BlueFrozenSwetBlock());
 
     public static final RegistryObject<Block> KARTHUULIUM_BLOCK = registerBlock("karthuulium_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)));
     public static final RegistryObject<Block> KARTHUULIUM_ORE = registerBlock("karthuulium_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)));
