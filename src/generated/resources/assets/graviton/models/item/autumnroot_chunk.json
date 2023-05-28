@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "graviton:item/autumnroot_chunk",
-    "particle": "graviton:item/eating/autumnroot_chunk_eating"
-  }
-}

@@ -92,7 +92,7 @@ public class GravitonBlocks {
             });
 
     public static final RegistryObject<Block> DARK_RED_SKYROOT_LEAVES = registerBlock("dark_red_skyroot_leaves",
-            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).lightLevel(s -> 4)) {
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
 
                 @Override
                 public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {

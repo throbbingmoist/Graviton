@@ -31,6 +31,9 @@ public class GravitonItems {
     public static final RegistryObject<Item> RAW_KARTHUULIUM = ITEMS.register("raw_karthuulium",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> BLOOD_HUSK = ITEMS.register("blood_husk",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> BLOOD_ORANGE = ITEMS.register("blood_orange",
             () -> new Item(new Item.Properties().food(Foods.BLOOD_ORANGE)));
 
@@ -73,11 +76,11 @@ public class GravitonItems {
     public static final RegistryObject<Item> COOKED_COCKATRICE = ITEMS.register("cooked_cockatrice",
             () -> new Item(new Item.Properties().food(Foods.COOKED_COCKATRICE)));
 
-    public static final RegistryObject<Item> AUTUMNROOT_CHUNK = ITEMS.register("autumnroot_chunk",
-            () -> new Item(new Item.Properties().food(Foods.AUTUMNROOT_CHUNK)));
+    public static final RegistryObject<Item> AUTUMNGOURD_CHUNK = ITEMS.register("autumngourd_chunk",
+            () -> new Item(new Item.Properties().food(Foods.AUTUMNGOURD_CHUNK)));
 
-    public static final RegistryObject<Item> AUTUMNROOT_PIE = ITEMS.register("autumnroot_pie",
-            () -> new Item(new Item.Properties().food(Foods.AUTUMNROOT_PIE)));
+    public static final RegistryObject<Item> AUTUMN_PIE = ITEMS.register("autumn_pie",
+            () -> new Item(new Item.Properties().food(Foods.AUTUMN_PIE)));
 
     public static final RegistryObject<Item> WYNDBERRY_LOLLIPOP = ITEMS.register("wyndberry_lollipop",
             () -> new Item(new Item.Properties().food(Foods.WYNDBERRY_LOLLIPOP)));
@@ -124,12 +127,12 @@ public class GravitonItems {
                 .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 60, 0),0.5F)
                 .build();
 
-        public static final FoodProperties AUTUMNROOT_CHUNK = new FoodProperties.Builder()
+        public static final FoodProperties AUTUMNGOURD_CHUNK = new FoodProperties.Builder()
                 .nutrition(5)
                 .saturationMod(0.3F)
                 .build();
 
-        public static final FoodProperties AUTUMNROOT_PIE = new FoodProperties.Builder()
+        public static final FoodProperties AUTUMN_PIE = new FoodProperties.Builder()
                 .nutrition(6)
                 .saturationMod(0.5F)
                 .build();

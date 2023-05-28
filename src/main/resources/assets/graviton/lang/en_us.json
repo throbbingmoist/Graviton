@@ -1,11 +1,10 @@
 {
   "block.graviton.crystalline_aether_grass_block": "Crystalline Aether Grass Block",
-  "block.graviton.debug_crystalline_inventory": "DEBUG CAGB",
   "block.graviton.coarse_aether_dirt": "Coarse Aether Dirt",
   "block.graviton.aero_stalks": "Aero Stalks",
   "block.graviton.red_skyroot_sapling": "Red Skyroot Sapling",
   "block.graviton.red_skyroot_leaves": "Red Skyroot Leaves",
-  "block.graviton.red_glowing_leaves": "Dark Red Glowing Leaves",
+  "block.graviton.dark_red_glowing_leaves": "Dark Red Glowing Leaves",
   "block.graviton.dark_red_skyroot_leaves": "Dark Red Skyroot Leaves",
 
   "item.graviton.heliosite": "Heliosite",
@@ -32,6 +31,8 @@
   "item.graviton.raw_gravitite": "Raw Gravitite",
   "item.graviton.gravitite_plate": "Gravitite Plate",
 
+  "item.graviton.blood_husk": "Blood Husk",
+
   "item.graviton.blood_orange": "Blood Orange",
   "item.graviton.aechor_ice_cream": "Aechor Ice Cream",
   "item.graviton.aechor_ice_cream_mix": "Aechor Ice Cream Mix",
@@ -53,12 +54,14 @@
   "item.graviton.orange_cream_lollipop": "Orange Cream Lollipop",
   "item.graviton.ambrosial_lollipop": "Ambrosial Lollipop",
   "item.graviton.enchanted_lollipop": "Enchanted Lollipop",
-  "item.graviton.autumnroot_chunk": "Autumnroot Chunk",
-  "item.graviton.autumnroot_pie": "Autumnroot Pie",
+  "item.graviton.autumngourd_chunk": "Autumn Gourd Chunk",
+  "item.graviton.autumn_pie": "Autumn Pie",
   "item.graviton.skyroot_nectar_bucket": "Skyroot Nectar Bucket",
   "item.graviton.cockatrice_cocktail": "Cockatrice Cocktail",
 
   "block.graviton.aether_smithing_table": "Skyroot Smithing Table",
+
+  "block.graviton.debug_crystalline_inventory": "DEBUG CAGB",
 
   "creativemodetab.graviton_tab": "Graviton"
 }

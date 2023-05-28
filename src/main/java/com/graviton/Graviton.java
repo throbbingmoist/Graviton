@@ -68,6 +68,7 @@ public class Graviton
             event.accept(GravitonBlocks.HELIOSITE_PILLAR);
             event.accept(GravitonBlocks.CHISELED_HELIOSITE_BLOCK);
 
+            event.accept(GravitonItems.BLOOD_HUSK);
             event.accept(GravitonItems.RAW_GRAVITITE);
             event.accept(GravitonItems.GRAVITITE_PLATE);
             event.accept(GravitonItems.RAW_KARTHUULIUM);
@@ -83,8 +84,8 @@ public class Graviton
             event.accept(GravitonItems.RAINBOW_CAKE_SLICE);
             event.accept(GravitonItems.ETHERIC_STEW);
             event.accept(GravitonItems.ETHERIC_RAMEN);
-            event.accept(GravitonItems.AUTUMNROOT_CHUNK);
-            event.accept(GravitonItems.AUTUMNROOT_PIE);
+            event.accept(GravitonItems.AUTUMNGOURD_CHUNK);
+            event.accept(GravitonItems.AUTUMN_PIE);
             event.accept(GravitonItems.FRIED_MOA_EGG);
             event.accept(GravitonItems.RAW_COCKATRICE);
             event.accept(GravitonItems.COOKED_COCKATRICE);
