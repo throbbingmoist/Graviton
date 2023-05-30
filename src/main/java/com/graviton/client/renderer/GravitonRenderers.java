@@ -1,7 +1,6 @@
 package com.graviton.client.renderer;
 
 import com.aetherteam.aether.Aether;
-import com.aetherteam.aether.client.renderer.accessory.CapeRenderer;
 import com.aetherteam.aether.client.renderer.accessory.GlovesRenderer;
 import com.aetherteam.aether.client.renderer.accessory.PendantRenderer;
 import com.aetherteam.aether.client.renderer.accessory.ShieldOfRepulsionRenderer;
