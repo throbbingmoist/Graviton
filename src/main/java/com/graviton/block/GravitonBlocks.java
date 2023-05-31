@@ -47,8 +47,10 @@ public class GravitonBlocks {
     public static final RegistryObject<Block> CRYSTALLINE_AETHER_GRASS_BLOCK = registerBlock("crystalline_aether_grass_block", () -> new CrystallineAetherGrassBlock(Block.Properties.of(Material.GRASS, MaterialColor.WARPED_WART_BLOCK).randomTicks().strength(0.2F).sound(SoundType.GRASS)));
     public static final RegistryObject<Block> DEBUG_CRYSTALLINE_INVENTORY = registerBlock("debug_crystalline_inventory", () -> new Block(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)));
     public static final RegistryObject<Block> COARSE_AETHER_DIRT = registerBlock("coarse_aether_dirt", () -> new Block(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)));
-    public static final RegistryObject<Block> HOLY_GRAVEL = registerBlock("holygravel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
+    public static final RegistryObject<Block> HOLYGRIT = registerBlock("holygrit", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
     public static final RegistryObject<Block> AERO_STALKS = registerBlock("aero_stalks", () -> new AeroStalksBlock());
+    public static final RegistryObject<Block> AUTUMNGOURD = registerBlock("autumngourd", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PUMPKIN)));
+    public static final RegistryObject<Block> AUTUMN_LANTERN = registerBlock("autumn_lantern", () -> new Block(BlockBehaviour.Properties.copy(Blocks.JACK_O_LANTERN)));
 
     public static final RegistryObject<Block> BLUE_SWET_BLOCK = registerBlock("blue_swet_block", () -> new BlueSwetBlock());
     public static final RegistryObject<Block> BLUE_FROZEN_SWET_BLOCK = registerBlock("blue_frozen_swet_block", () -> new BlueFrozenSwetBlock());

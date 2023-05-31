@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "graviton:block/autumn_lantern",
+    "side": "graviton:block/autumngourd_side",
+    "top": "graviton:block/autumngourd_top"
+  }
+}

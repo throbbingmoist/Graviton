@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "aether_genesis:golden_swet_ball",
+    "deep_aether:golden_swet_ball",
+    "aether_redux:golden_swet_ball",
+    "aether_genesis:dark_swet_ball",
+    "aether:swet_ball"
+  ]
+}

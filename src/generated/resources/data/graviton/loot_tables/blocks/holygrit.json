@@ -32,13 +32,13 @@
               "children": [
                 {
                   "type": "minecraft:item",
-                  "name": "minecraft:redstone",
+                  "name": "minecraft:lapis_lazuli",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
                       "count": {
-                        "min": 3,
-                        "max": 7
+                        "min": 2,
+                        "max": 5
                       },
                       "add": true
                     }
@@ -67,14 +67,14 @@
                         0.1,
                         0.14285715,
                         0.25,
-                        0.1
+                        0.7
                       ]
                     }
                   ]
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "graviton:holygravel"
+                  "name": "graviton:holygrit"
                 }
               ],
               "conditions": [
