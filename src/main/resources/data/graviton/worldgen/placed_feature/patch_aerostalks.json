@@ -1,5 +1,5 @@
 {
-  "feature": "aether:patch_aerostalks",
+  "feature": "graviton:patch_aerostalks",
   "placement": [
     {
       "type": "minecraft:rarity_filter",

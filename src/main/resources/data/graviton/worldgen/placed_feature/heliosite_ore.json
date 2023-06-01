@@ -1,5 +1,5 @@
 {
-  "feature": "aether:heliosite_ore",
+  "feature": "graviton:heliosite_ore",
   "placement": [
     {
       "type": "minecraft:count",

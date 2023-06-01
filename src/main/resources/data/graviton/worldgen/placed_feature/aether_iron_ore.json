@@ -1,5 +1,5 @@
 {
-  "feature": "aether:aether_iron_ore",
+  "feature": "graviton:aether_iron_ore",
   "placement": [
     {
       "type": "minecraft:count",
