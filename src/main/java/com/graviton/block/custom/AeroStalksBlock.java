@@ -33,69 +33,21 @@ public class AeroStalksBlock extends SugarCaneBlock {
         BlockPos blockpos = pos.below();
         BlockState groundState = worldIn.getBlockState(blockpos);
 
-        if (!groundState.is(this)) {
-            ArrayList<Boolean> checks = new ArrayList<Boolean>();
+        ArrayList<Boolean> checks = new ArrayList<Boolean>();
+        ArrayList<BlockState> positions = new ArrayList<BlockState>();
 
-            blockpos = pos.below();
-            blockpos = blockpos.north();
-            blockpos = blockpos.west();
-            groundState = worldIn.getBlockState(blockpos);
-            boolean checkBlock = groundState.is(Blocks.WATER);
-            checks.add(checkBlock);
+        positions.add(worldIn.getBlockState(pos.below().north().west()));
+        positions.add(worldIn.getBlockState(pos.below().north()));
+        positions.add(worldIn.getBlockState(pos.below().north().east()));
+        positions.add(worldIn.getBlockState(pos.below().west()));
+        positions.add(worldIn.getBlockState(pos.below().east()));
+        positions.add(worldIn.getBlockState(pos.below().south().west()));
+        positions.add(worldIn.getBlockState(pos.below().south()));
+        positions.add(worldIn.getBlockState(pos.below().south().east()));
 
-            blockpos = pos.below();
-            blockpos = blockpos.north();
-            groundState = worldIn.getBlockState(blockpos);
-            checkBlock = groundState.is(Blocks.WATER);
-            checks.add(checkBlock);
+        for (BlockState block : positions) checks.add(block.is(Blocks.WATER));
 
-            blockpos = pos.below();
-            blockpos = blockpos.north();
-            blockpos = blockpos.east();
-            groundState = worldIn.getBlockState(blockpos);
-            checkBlock = groundState.is(Blocks.WATER);
-            checks.add(checkBlock);
-
-            blockpos = pos.below();
-            blockpos = blockpos.west();
-            groundState = worldIn.getBlockState(blockpos);
-            checkBlock = groundState.is(Blocks.WATER);
-            checks.add(checkBlock);
-
-            blockpos = pos.below();
-            blockpos = blockpos.east();
-            groundState = worldIn.getBlockState(blockpos);
-            checkBlock = groundState.is(Blocks.WATER);
-            checks.add(checkBlock);
-
-            blockpos = pos.below();
-            blockpos = blockpos.south();
-            blockpos = blockpos.west();
-            groundState = worldIn.getBlockState(blockpos);
-            checkBlock = groundState.is(Blocks.WATER);
-            checks.add(checkBlock);
-
-            blockpos = pos.below();
-            blockpos = blockpos.south();
-            groundState = worldIn.getBlockState(blockpos);
-            checkBlock = groundState.is(Blocks.WATER);
-            checks.add(checkBlock);
-
-            blockpos = pos.below();
-            blockpos = blockpos.south();
-            blockpos = blockpos.east();
-            groundState = worldIn.getBlockState(blockpos);
-            checkBlock = groundState.is(Blocks.WATER);
-            checks.add(checkBlock);
-
-            if (checks.contains(true)) {
-                return true;
-            } else {
-                return false;
-            }
-        } else {
-            return true;
-        }
+        return groundState.is(this) || checks.contains(true);
     }
     @Override
     public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
@@ -122,15 +74,9 @@ public class AeroStalksBlock extends SugarCaneBlock {
 
     @Override
     public boolean canSurvive(BlockState blockstate, LevelReader worldIn, BlockPos pos) {
-        BlockPos blockpos = pos.below();
-        var blockAllowed = waterCheck(pos, worldIn);
-        BlockState groundState = worldIn.getBlockState(blockpos);
-        if (blockAllowed) {
-            return groundState.is(this) || groundState.is(BlockTags.create(new ResourceLocation("graviton:aerostalksgrowblocks"))) || groundState.is(BlockTags.create(new ResourceLocation("minecraft:dirt")));
-        }
-        else {
-            return false;
-        }
+        BlockState groundState = worldIn.getBlockState(pos.below());
+        return waterCheck(pos, worldIn) || groundState.is(this) || groundState.is(BlockTags.create(new ResourceLocation("graviton:aerostalks_plantable"))) || groundState.is(BlockTags.create(new ResourceLocation("minecraft:dirt")));
+
     }
     @Override
     public PlantType getPlantType(BlockGetter world, BlockPos pos) {
