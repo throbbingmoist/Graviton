@@ -6,6 +6,7 @@ import com.graviton.block.custom.AeroStalksBlock;
 import com.graviton.block.custom.BlueFrozenSwetBlock;
 import com.graviton.block.custom.BlueSwetBlock;
 import com.graviton.block.custom.CrystallineAetherGrassBlock;
+import com.graviton.block.custom.AutumnLantern;
 import com.graviton.item.GravitonItems;
 import com.graviton.worldgen.tree.RedSkyrootGrower;
 import net.minecraft.core.BlockPos;
@@ -50,7 +51,7 @@ public class GravitonBlocks {
     public static final RegistryObject<Block> HOLYGRIT = registerBlock("holygrit", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
     public static final RegistryObject<Block> AERO_STALKS = registerBlock("aero_stalks", () -> new AeroStalksBlock());
     public static final RegistryObject<Block> AUTUMNGOURD = registerBlock("autumngourd", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PUMPKIN)));
-    public static final RegistryObject<Block> AUTUMN_LANTERN = registerBlock("autumn_lantern", () -> new Block(BlockBehaviour.Properties.copy(Blocks.JACK_O_LANTERN)));
+    public static final RegistryObject<Block> AUTUMN_LANTERN = registerBlock("autumn_lantern", () -> new AutumnLantern());
 
     public static final RegistryObject<Block> BLUE_SWET_BLOCK = registerBlock("blue_swet_block", () -> new BlueSwetBlock());
     public static final RegistryObject<Block> BLUE_FROZEN_SWET_BLOCK = registerBlock("blue_frozen_swet_block", () -> new BlueFrozenSwetBlock());
