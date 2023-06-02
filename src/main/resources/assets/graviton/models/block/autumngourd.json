@@ -1,14 +1,12 @@
 {
-    "parent": "block/cube_column",
-    "display": {
-        "firstperson_righthand": {
-            "rotation": [ 0, 135, 0 ],
-            "translation": [ 0, 0, 0 ],
-            "scale": [ 0.40, 0.40, 0.40 ]
-        }
-    },
-    "textures": {
-        "end": "graviton:block/autumngourd_top",
-        "side": "graviton:block/autumngourd_side"
-    }
+  "parent": "block/cube",
+  "textures": {
+    "down": "graviton:block/autumngourd_bottom",
+    "up": "graviton:block/autumngourd_top",
+    "north": "graviton:block/autumngourd_side",
+    "east": "graviton:block/autumngourd_side",
+    "south": "graviton:block/autumngourd_side",
+    "west": "graviton:block/autumngourd_side",
+    "particle": "graviton:block/autumn_lantern"
+  }
 }

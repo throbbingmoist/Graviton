@@ -1,8 +1,12 @@
 {
-  "parent": "minecraft:block/orientable",
+  "parent": "block/cube",
   "textures": {
-    "front": "graviton:block/autumn_lantern",
-    "side": "graviton:block/autumngourd_side",
-    "top": "graviton:block/autumngourd_top"
+    "down": "graviton:block/autumngourd_bottom",
+    "up": "graviton:block/autumngourd_top",
+    "north": "graviton:block/autumn_lantern",
+    "east": "graviton:block/autumngourd_side",
+    "south": "graviton:block/autumngourd_side",
+    "west": "graviton:block/autumngourd_side",
+    "particle": "graviton:block/autumn_lantern"
   }
 }

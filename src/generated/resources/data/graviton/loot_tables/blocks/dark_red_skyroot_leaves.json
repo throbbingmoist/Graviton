@@ -68,36 +68,36 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "chances": [
-                0.25,
-                0.32,
-                0.4,
-                0.5,
-                0.6
-              ],
-              "condition": "minecraft:table_bonus",
-              "enchantment": "minecraft:fortune"
-            },
-            {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "tag": "graviton:bloodhusk_harvesttools"
+                "tag": "graviton:bloodhusk_harvesters"
               }
             },
             {
               "condition": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:match_tool",
-                "predicate": {
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:silk_touch",
-                      "levels": {
-                        "min": 1
-                      }
+                "condition": "minecraft:alternative",
+                "terms": [
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "tag": "forge:shears"
                     }
-                  ]
-                }
+                  },
+                  {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "enchantments": [
+                        {
+                          "enchantment": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
               }
             }
           ],
@@ -106,7 +106,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
+                "max": 1.0,
                 "min": 0.0
               },
               "function": "minecraft:set_count"
