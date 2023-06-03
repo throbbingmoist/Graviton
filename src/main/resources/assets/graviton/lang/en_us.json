@@ -29,6 +29,13 @@
   "block.graviton.blue_swet_block": "Blue Swet Block",
   "block.graviton.blue_frozen_swet_block": "Blue Frozen Swet Block",
 
+  "block.graviton.atmosine_block": "Atmosine Block",
+  "block.graviton.atmosine_bud_small": "Small Atmosine Bud",
+  "block.graviton.atmosine_bud_medium": "Medium Atmosine Bud",
+  "block.graviton.atmosine_bud_large": "Large Atmosine Bud",
+  "block.graviton.atmosine_cluster": "Atmosine Cluster",
+  "block.graviton.budding_atmosine": "Budding Atmosine",
+
   "block.graviton.karthuulium_block": "Block Of Karthuulium",
   "block.graviton.karthuulium_ore": "Karthuulium Ore",
   "item.graviton.raw_karthuulium": "Raw Karthuulium",

@@ -2,11 +2,7 @@ package com.graviton.block;
 
 import com.aetherteam.aether.block.AetherBlocks;
 import com.graviton.Graviton;
-import com.graviton.block.custom.AeroStalksBlock;
-import com.graviton.block.custom.BlueFrozenSwetBlock;
-import com.graviton.block.custom.BlueSwetBlock;
-import com.graviton.block.custom.CrystallineAetherGrassBlock;
-import com.graviton.block.custom.AutumnLantern;
+import com.graviton.block.custom.*;
 import com.graviton.item.GravitonItems;
 import com.graviton.worldgen.tree.RedSkyrootGrower;
 import net.minecraft.core.BlockPos;
@@ -29,6 +25,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
+
+import static net.minecraft.world.level.block.Blocks.AMETHYST_CLUSTER;
 
 public class GravitonBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Graviton.MOD_ID);
@@ -56,6 +54,21 @@ public class GravitonBlocks {
     public static final RegistryObject<Block> BLUE_SWET_BLOCK = registerBlock("blue_swet_block", () -> new BlueSwetBlock());
     public static final RegistryObject<Block> BLUE_FROZEN_SWET_BLOCK = registerBlock("blue_frozen_swet_block", () -> new BlueFrozenSwetBlock());
 
+    public static final RegistryObject<Block> ATMOSINE_BLOCK = registerBlock("atmosine_block", () -> new AmethystBlock(Block.Properties.copy(Blocks.AMETHYST_BLOCK)));
+    public static final RegistryObject<Block> BUDDING_ATMOSINE = registerBlock("budding_atmosine", () -> new BuddingAtmosineBlock(Block.Properties.copy(Blocks.BUDDING_AMETHYST)));
+
+    public static final RegistryObject<Block> ATMOSINE_CLUSTER = registerBlock("atmosine_cluster", () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> {
+        return 5;
+    })));
+    public static final RegistryObject<Block> ATMOSINE_BUD_LARGE = registerBlock("atmosine_bud_large", () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(AMETHYST_CLUSTER).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((p_152629_) -> {
+        return 4;
+    })));
+    public static final RegistryObject<Block> ATMOSINE_BUD_MEDIUM = registerBlock("atmosine_bud_medium", () -> new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(AMETHYST_CLUSTER).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((p_152617_) -> {
+        return 2;
+    })));
+    public static final RegistryObject<Block> ATMOSINE_BUD_SMALL = registerBlock("atmosine_bud_small", () -> new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(AMETHYST_CLUSTER).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((p_187409_) -> {
+        return 1;
+    })));
     public static final RegistryObject<Block> KARTHUULIUM_BLOCK = registerBlock("karthuulium_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)));
     public static final RegistryObject<Block> KARTHUULIUM_ORE = registerBlock("karthuulium_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)));
     public static final RegistryObject<Block> AETHER_IRON_ORE = registerBlock("aether_iron_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)));

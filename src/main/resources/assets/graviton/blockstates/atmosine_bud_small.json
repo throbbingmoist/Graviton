@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "graviton:block/atmosine_bud_small",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "graviton:block/atmosine_bud_small",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "graviton:block/atmosine_bud_small",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "graviton:block/atmosine_bud_small",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "graviton:block/atmosine_bud_small"
+    },
+    "facing=west": {
+      "model": "graviton:block/atmosine_bud_small",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

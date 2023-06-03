@@ -81,6 +81,12 @@ public class Graviton
             event.accept(GravitonBlocks.KARTHUULIUM_ORE);
             event.accept(GravitonBlocks.KARTHUULIUM_BLOCK);
             event.accept(GravitonBlocks.AETHER_IRON_ORE);
+            event.accept(GravitonBlocks.ATMOSINE_BLOCK);
+            event.accept(GravitonBlocks.BUDDING_ATMOSINE);
+            event.accept(GravitonBlocks.ATMOSINE_BUD_SMALL);
+            event.accept(GravitonBlocks.ATMOSINE_BUD_MEDIUM);
+            event.accept(GravitonBlocks.ATMOSINE_BUD_LARGE);
+            event.accept(GravitonBlocks.ATMOSINE_CLUSTER);
 
             event.accept(GravitonItems.BLOOD_ORANGE);
             event.accept(GravitonItems.BERRY_PRESERVES);
