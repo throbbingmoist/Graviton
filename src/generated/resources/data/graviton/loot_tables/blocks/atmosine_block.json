@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "minecraft:gilded_blackstone"
+              "name": "graviton:atmosine_block"
             },
             {
               "type": "minecraft:alternatives",
@@ -34,9 +34,9 @@
                   "conditions": [
                     {
                       "chances": [
-                        0.1,
-                        0.14285715,
                         0.25,
+                        0.5,
+                        0.75,
                         1.0
                       ],
                       "condition": "minecraft:table_bonus",
@@ -48,8 +48,8 @@
                       "add": false,
                       "count": {
                         "type": "minecraft:uniform",
-                        "max": 5.0,
-                        "min": 2.0
+                        "max": 3.0,
+                        "min": 0.0
                       },
                       "function": "minecraft:set_count"
                     }
@@ -58,7 +58,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "minecraft:gilded_blackstone"
+                  "name": "graviton:atmosine_block"
                 }
               ],
               "conditions": [
