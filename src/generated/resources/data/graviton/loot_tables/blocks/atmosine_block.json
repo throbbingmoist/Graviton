@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:atmosine_block"
+          "name": "graviton:atmosine_block"
         }
       ],
       "rolls": 1.0
