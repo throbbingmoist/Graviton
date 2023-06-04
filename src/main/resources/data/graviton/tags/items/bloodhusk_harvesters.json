@@ -2,6 +2,14 @@
   "values": [
     "aether:zanite_hoe",
     "aether:gravitite_hoe",
-    "aether:valkyrie_hoe"
+    "aether:valkyrie_hoe",
+    {
+      "id": "deep_aether:cloudium_hoe",
+      "required": false
+    },
+    {
+      "id": "lost_aether_content:phoenix_hoe",
+      "required": false
+    }
   ]
 }

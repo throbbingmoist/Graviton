@@ -6,18 +6,27 @@
     "minecraft:grass_block",
     "minecraft:mud",
     "minecraft:coarse_dirt",
-    "aether:aether_grass_block",
+    "minecraft:podzol",
     "minecraft:sand",
+    "minecraft:moss_block",
+    "minecraft:dirt",
+    "aether:aether_grass_block",
     "aether:enchanted_aether_grass_block",
     "aether:aether_dirt",
     "aether:quicksoil",
-    "minecraft:moss_block",
-    "minecraft:dirt",
     "graviton:coarse_aether_dirt",
-    "deep_aether:aether_moss_block",
-    "deep_aether:aether_mud",
-    "deep_aether:golden_heights_grass_block",
-    "minecraft:podzol",
     "graviton:crystalline_aether_grass_block"
+    {
+      "id": "deep_aether:aether_moss_block",
+      "required": false
+    },
+    {
+      "id": "deep_aether:aether_mud",
+      "required": false
+    },
+    {
+      "id": "deep_aether:golden_heights_grass_block",
+      "required": false
+    }
   ]
 }

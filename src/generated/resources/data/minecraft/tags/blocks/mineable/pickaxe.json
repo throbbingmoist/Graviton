@@ -1,7 +1,24 @@
 {
+  "replace": false,
   "values": [
     "graviton:heliosite_ore",
     "graviton:aether_iron_ore",
-    "graviton:heliosite_block"
+    "graviton:heliosite_block",
+    "graviton:heliosite_stairs",
+    "graviton:heliosite_slab",
+    "graviton:heliosite_wall",
+    "graviton:smooth_heliosite_block",
+    "graviton:smooth_heliosite_stairs",
+    "graviton:smooth_heliosite_slab",
+    "graviton:smooth_heliosite_wall",
+    "graviton:heliosite_bricks",
+    "graviton:heliosite_pillar",
+    "graviton:chiseled_heliosite_block",
+    "graviton:atmosine_block",
+    "graviton:budding_atmosine",
+    "graviton:atmosine_bud_small",
+    "graviton:atmosine_bud_medium",
+    "graviton:atmosine_bud_large",
+    "graviton:atmosine_cluster"
   ]
 }

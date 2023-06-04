@@ -1,6 +1,8 @@
 {
+  "replace": false,
   "values": [
     "graviton:crystalline_aether_grass_block",
-    "graviton:coarse_aether_dirt"
+    "graviton:coarse_aether_dirt",
+    "graviton:holygrit"
   ]
 }

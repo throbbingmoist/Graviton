@@ -19,6 +19,8 @@ public class GravitonItems {
 
     public static final RegistryObject<Item> HELIOSITE = ITEMS.register("heliosite",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ATMOSINE_SHARD = ITEMS.register("atmosine_shard",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KARTHUULIUM_INGOT = ITEMS.register("karthuulium_ingot",
             () -> new Item(new Item.Properties()));
 
