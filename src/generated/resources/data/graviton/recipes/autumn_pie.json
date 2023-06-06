@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "graviton:autumngourd_chunk"
+    },
+    {
+      "tag": "graviton:iced_sugars"
+    }
+  ],
+  "result": {
+    "item": "graviton:autumn_pie",
+    "count": 1
+  }
+}

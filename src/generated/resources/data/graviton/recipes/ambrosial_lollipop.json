@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aether:ambrosium_shard"
+    },
+    {
+      "tag": "forge:rods/wooden"
+    },
+    {
+      "tag": "graviton:iced_sugars"
+    }
+  ],
+  "result": {
+    "item": "graviton:ambrosial_lollipop",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "graviton:heliosite"
+    },
+    "1": {
+      "item": "graviton:heliosite"
+    },
+    "2": {
+      "item": "graviton:heliosite"
+    },
+    "3": {
+      "item": "graviton:heliosite"
+    },
+    "4": {
+      "item": "graviton:heliosite"
+    },
+    "5": {
+      "item": "graviton:heliosite"
+    }
+  },
+  "result": {
+    "item": "graviton:heliosite_wall",
+    "count": 6
+  }
+}

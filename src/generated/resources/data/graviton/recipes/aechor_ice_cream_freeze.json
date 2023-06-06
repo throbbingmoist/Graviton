@@ -1,0 +1,10 @@
+{
+  "type": "aether:freezing",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "graviton:aechor_ice_cream_mix"
+  },
+  "result": "graviton:aechor_ice_cream"
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:book"
+    },
+    "3": {
+      "item": "graviton:gravitite_plate"
+    },
+    "4": {
+      "item": "aether:aerogel"
+    },
+    "5": {
+      "item": "graviton:gravitite_plate"
+    },
+    "6": {
+      "item": "aether:aerogel"
+    },
+    "7": {
+      "item": "aether:aerogel"
+    },
+    "8": {
+      "item": "aether:aerogel"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanting_table",
+    "count": 1
+  }
+}

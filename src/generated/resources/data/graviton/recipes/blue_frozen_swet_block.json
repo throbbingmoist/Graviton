@@ -1,0 +1,9 @@
+{
+  "type": "aether:freezing",
+  "category": "misc",
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "graviton:blue_swet_block"
+  },
+  "result": "graviton:blue_frozen_swet_block"
+}

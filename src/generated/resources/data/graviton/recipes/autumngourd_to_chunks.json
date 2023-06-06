@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "graviton:autumngourd"
+    }
+  ],
+  "result": {
+    "item": "graviton:autumngourd_chunk",
+    "count": 3
+  }
+}

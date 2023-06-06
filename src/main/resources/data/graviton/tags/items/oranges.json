@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "aether:blue_berry",
+    "graviton:blood_orange",
 	{
-      "id": "aether_genesis:wyndberry",
+      "id": "aether_genesis:orange",
       "required": false
     }
   ]

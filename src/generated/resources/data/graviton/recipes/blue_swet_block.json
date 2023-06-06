@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "aether:swet_ball"
+    },
+    {
+      "item": "aether:swet_ball"
+    },
+    {
+      "item": "aether:swet_ball"
+    },
+    {
+      "item": "aether:swet_ball"
+    },
+    {
+      "item": "aether:swet_ball"
+    },
+    {
+      "item": "aether:swet_ball"
+    },
+    {
+      "item": "aether:swet_ball"
+    },
+    {
+      "item": "aether:swet_ball"
+    },
+    {
+      "item": "aether:swet_ball"
+    }
+  ],
+  "result": {
+    "item": "graviton:blue_swet_block",
+    "count": 1
+  }
+}

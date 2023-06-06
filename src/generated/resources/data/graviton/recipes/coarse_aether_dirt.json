@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "aether:aether_dirt"
+    },
+    "1": {
+      "item": "graviton:holygrit"
+    },
+    "2": {
+      "item": "graviton:holygrit"
+    },
+    "3": {
+      "item": "aether:aether_dirt"
+    }
+  },
+  "result": {
+    "item": "graviton:coarse_aether_dirt",
+    "count": 4
+  }
+}

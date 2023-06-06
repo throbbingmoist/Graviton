@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "graviton:smooth_heliosite_block"
+  },
+  "result": "graviton:smooth_heliosite_stairs"
+}

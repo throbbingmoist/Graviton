@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "graviton:autumngourd_chunk"
+    },
+    "1": {
+      "item": "graviton:autumngourd_chunk"
+    },
+    "2": {
+      "item": "graviton:autumngourd_chunk"
+    },
+    "4": {
+      "item": "aether_genesis:skyroot_bowl"
+    }
+  },
+  "result": {
+    "item": "aether_genesis:cornstarch_bowl",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "aether:freezing",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "graviton:red_husk"
+  },
+  "result": "minecraft:redstone"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "graviton:iced_sugars"
+    },
+    {
+      "item": "aether:skyroot_water_bucket"
+    },
+    {
+      "tag": "graviton:iced_sugars"
+    },
+    {
+      "tag": "graviton:oranges"
+    },
+    {
+      "tag": "graviton:oranges"
+    },
+    {
+      "tag": "graviton:oranges"
+    },
+    {
+      "tag": "graviton:oranges"
+    }
+  ],
+  "result": {
+    "item": "graviton:orange_marmalade",
+    "count": 1
+  }
+}

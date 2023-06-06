@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "tag": "forge:rods/wooden"
+    },
+    {
+      "tag": "graviton:iced_sugars"
+    }
+  ],
+  "result": {
+    "item": "graviton:chocolate_lollipop",
+    "count": 1
+  }
+}

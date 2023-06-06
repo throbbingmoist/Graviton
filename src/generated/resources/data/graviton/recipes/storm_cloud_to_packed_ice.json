@@ -1,0 +1,10 @@
+{
+  "type": "aether:freezing",
+  "category": "building",
+  "cookingtime": 500,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "aether_genesis:storm_aercloud"
+  },
+  "result": "minecraft:packed_ice"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "graviton:preserve_berries"
+    },
+    {
+      "item": "aether:aechor_petal"
+    },
+    {
+      "tag": "graviton:preserve_berries"
+    },
+    {
+      "tag": "graviton:iced_sugars"
+    },
+    {
+      "tag": "graviton:iced_sugars"
+    },
+    {
+      "tag": "graviton:iced_sugars"
+    },
+    {
+      "item": "aether:skyroot_poison_bucket"
+    }
+  ],
+  "result": {
+    "item": "graviton:cockatrice_cocktail",
+    "count": 1
+  }
+}

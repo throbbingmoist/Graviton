@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "aether:blue_berry",
+    "minecraft:sugar",
 	{
-      "id": "aether_genesis:wyndberry",
+      "id": "aether_genesis:icestone_poprocks",
       "required": false
     }
   ]

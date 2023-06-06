@@ -126,7 +126,7 @@ public class GravitonItems {
         public static final FoodProperties ORANGE_JAM_BREAD = new FoodProperties.Builder()
                 .nutrition(8)
                 .saturationMod(0.3F)
-                .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 60, 0),0.5F)
+                .effect(() -> new MobEffectInstance(MobEffects.SATURATION, 60, 0),0.5F)
                 .build();
 
         public static final FoodProperties AUTUMNGOURD_CHUNK = new FoodProperties.Builder()

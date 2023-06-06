@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "graviton:gravitite_plate"
+    },
+    "1": {
+      "item": "graviton:gravitite_plate"
+    },
+    "2": {
+      "item": "graviton:gravitite_plate"
+    },
+    "3": {
+      "item": "graviton:gravitite_plate"
+    },
+    "4": {
+      "item": "graviton:gravitite_plate"
+    },
+    "5": {
+      "item": "graviton:gravitite_plate"
+    },
+    "6": {
+      "item": "graviton:gravitite_plate"
+    },
+    "7": {
+      "item": "graviton:gravitite_plate"
+    },
+    "8": {
+      "item": "graviton:gravitite_plate"
+    }
+  },
+  "result": {
+    "item": "aether:enchanted_gravitite",
+    "count": 1
+  }
+}

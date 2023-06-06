@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "graviton:autumngourd_chunk"
+    },
+    "1": {
+      "item": "graviton:autumngourd_chunk"
+    },
+    "2": {
+      "item": "graviton:autumngourd_chunk"
+    },
+    "3": {
+      "item": "graviton:autumngourd_chunk"
+    }
+  },
+  "result": {
+    "item": "graviton:autumngourd",
+    "count": 1
+  }
+}

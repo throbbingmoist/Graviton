@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "graviton:heliosite"
+  },
+  "result": "graviton:heliosite_stairs"
+}

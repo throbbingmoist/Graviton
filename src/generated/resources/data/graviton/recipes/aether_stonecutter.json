@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "tag": "graviton:aether_stone_stone"
+    },
+    "4": {
+      "tag": "graviton:aether_stone_stone"
+    },
+    "5": {
+      "tag": "graviton:aether_stone_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:stonecutter",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "graviton:fried_moa_eggs"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "graviton:autumngourd_chunk"
+    },
+    {
+      "tag": "graviton:etheric_ramen_meats"
+    },
+    {
+      "item": "graviton:etheric_stew"
+    }
+  ],
+  "result": {
+    "item": "graviton:etheric_ramen",
+    "count": 1
+  }
+}

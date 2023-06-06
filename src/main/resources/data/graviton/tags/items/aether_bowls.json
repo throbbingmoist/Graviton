@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "aether:blue_berry",
+    "minecraft:bowl",
 	{
-      "id": "aether_genesis:wyndberry",
+      "id": "aether_genesis:skyroot_bowl",
       "required": false
     }
   ]

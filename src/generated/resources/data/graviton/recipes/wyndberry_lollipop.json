@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aether_genesis:wyndberry"
+    },
+    {
+      "tag": "forge:rods/wooden"
+    },
+    {
+      "tag": "graviton:iced_sugars"
+    }
+  ],
+  "result": {
+    "item": "graviton:wyndberry_lollipop",
+    "count": 1
+  }
+}

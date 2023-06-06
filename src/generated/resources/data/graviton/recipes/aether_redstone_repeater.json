@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_torch"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "minecraft:redstone_torch"
+    },
+    "3": {
+      "tag": "graviton:aether_stone_stone"
+    },
+    "4": {
+      "tag": "graviton:aether_stone_stone"
+    },
+    "5": {
+      "tag": "graviton:aether_stone_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}

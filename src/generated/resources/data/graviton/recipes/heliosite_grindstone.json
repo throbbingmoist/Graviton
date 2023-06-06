@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aether:skyroot_stick"
+    },
+    "1": {
+      "tag": "graviton:aether_stone_stone_slabs"
+    },
+    "2": {
+      "item": "aether:skyroot_stick"
+    },
+    "3": {
+      "tag": "minecraft:planks"
+    },
+    "5": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:grindstone",
+    "count": 1
+  }
+}

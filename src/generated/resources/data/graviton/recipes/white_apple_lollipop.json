@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aether:white_apple"
+    },
+    {
+      "tag": "forge:rods/wooden"
+    },
+    {
+      "tag": "graviton:iced_sugars"
+    }
+  ],
+  "result": {
+    "item": "graviton:white_apple_lollipop",
+    "count": 1
+  }
+}

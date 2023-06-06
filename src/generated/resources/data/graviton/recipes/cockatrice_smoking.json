@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 0.3,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "graviton:raw_cockatrice_meat"
+  },
+  "result": "graviton:cooked_cockatrice_meat"
+}

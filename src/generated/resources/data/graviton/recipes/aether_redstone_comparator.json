@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:redstone_torch"
+    },
+    "3": {
+      "item": "minecraft:redstone_torch"
+    },
+    "4": {
+      "item": "minecraft:quartz"
+    },
+    "5": {
+      "item": "minecraft:redstone_torch"
+    },
+    "6": {
+      "tag": "graviton:aether_stone_stone"
+    },
+    "7": {
+      "tag": "graviton:aether_stone_stone"
+    },
+    "8": {
+      "tag": "graviton:aether_stone_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:comparator",
+    "count": 1
+  }
+}

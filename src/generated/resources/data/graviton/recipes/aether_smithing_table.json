@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "aether:skyroot_planks"
+    },
+    "3": {
+      "item": "aether:skyroot_planks"
+    },
+    "4": {
+      "item": "aether:skyroot_planks"
+    },
+    "5": {
+      "item": "aether:skyroot_planks"
+    }
+  },
+  "result": {
+    "item": "graviton:aether_smithing_table",
+    "count": 1
+  }
+}

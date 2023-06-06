@@ -1,0 +1,9 @@
+{
+  "type": "aether:enchanting",
+  "category": "building",
+  "cookingtime": 800,
+  "ingredient": {
+    "item": "aether:aether_grass_block"
+  },
+  "result": "aether:enchanted_aether_grass_block"
+}

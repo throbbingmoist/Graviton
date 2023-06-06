@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "graviton:aero_stalks"
+    },
+    "1": {
+      "item": "graviton:aero_stalks"
+    },
+    "2": {
+      "item": "graviton:aero_stalks"
+    }
+  },
+  "result": {
+    "item": "minecraft:paper",
+    "count": 3
+  }
+}

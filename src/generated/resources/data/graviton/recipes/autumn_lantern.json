@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "graviton:autumngourd"
+    },
+    {
+      "item": "aether:ambrosium_torch"
+    }
+  ],
+  "result": {
+    "item": "graviton:autumn_lantern",
+    "count": 1
+  }
+}

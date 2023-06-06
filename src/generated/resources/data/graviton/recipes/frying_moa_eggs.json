@@ -1,0 +1,10 @@
+{
+  "type": "aether:enchanting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.3,
+  "ingredient": {
+    "tag": "graviton:moa_eggs_for_frying"
+  },
+  "result": "graviton:fried_moa_egg"
+}

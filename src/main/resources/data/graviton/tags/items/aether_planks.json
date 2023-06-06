@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "aether:blue_berry",
+    "aether:skyroot_planks",
 	{
-      "id": "aether_genesis:wyndberry",
+      "id": "deep_aether:cruderoot_planks",
       "required": false
     }
   ]

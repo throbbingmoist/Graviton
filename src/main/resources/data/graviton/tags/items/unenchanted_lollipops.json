@@ -4,8 +4,14 @@
     "graviton:orange_cream_lollipop",
     "graviton:cream_soda_lollipop",
     "graviton:white_apple_lollipop",
-    "aether_genesis:orange_lollipop",
-    "aether_genesis:blueberry_lollipop",
+	{
+      "id": "aether_genesis:orange_lollipop",
+      "required": false
+    },
+    {
+      "id": "aether_genesis:blueberry_lollipop",
+      "required": false
+    },
     "graviton:chocolate_lollipop",
     "graviton:wyndberry_lollipop"
   ]

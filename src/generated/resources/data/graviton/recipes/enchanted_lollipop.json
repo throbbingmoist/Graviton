@@ -1,0 +1,10 @@
+{
+  "type": "aether:enchanting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": {
+    "tag": "graviton:unenchanted_lollipops"
+  },
+  "result": "graviton:enchanted_lollipop"
+}

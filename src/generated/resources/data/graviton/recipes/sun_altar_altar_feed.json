@@ -1,0 +1,10 @@
+{
+  "type": "aether:enchanting",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "aether:sun_altar"
+  },
+  "result": "minecraft:netherite_scrap"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "graviton:iced_sugars"
+    },
+    {
+      "item": "aether:skyroot_water_bucket"
+    },
+    {
+      "tag": "graviton:iced_sugars"
+    },
+    {
+      "tag": "graviton:preserve_berries"
+    },
+    {
+      "tag": "graviton:preserve_berries"
+    },
+    {
+      "tag": "graviton:preserve_berries"
+    },
+    {
+      "item": "aether_genesis:skyroot_bowl"
+    }
+  ],
+  "result": {
+    "item": "graviton:berry_preserves",
+    "count": 1
+  }
+}

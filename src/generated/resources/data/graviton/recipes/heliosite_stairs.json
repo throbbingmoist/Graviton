@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "graviton:heliosite"
+    },
+    "3": {
+      "item": "graviton:heliosite"
+    },
+    "4": {
+      "item": "graviton:heliosite"
+    },
+    "6": {
+      "item": "graviton:heliosite"
+    },
+    "7": {
+      "item": "graviton:heliosite"
+    },
+    "8": {
+      "item": "graviton:heliosite"
+    }
+  },
+  "result": {
+    "item": "graviton:heliosite_stairs",
+    "count": 4
+  }
+}

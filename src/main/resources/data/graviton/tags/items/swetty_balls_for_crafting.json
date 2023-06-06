@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+	{
+      "id": "aether_genesis:golden_swet_ball",
+      "required": false
+    },
+	{
+      "id": "deep_aether:golden_swet_ball",
+      "required": false
+    },
+	{
+      "id": "aether_redux:golden_swet_ball",
+      "required": false
+    },
+	{
+      "id": "aether_genesis:dark_swet_ball",
+      "required": false
+    },
+    "aether:swet_ball"
+  ]
+}
