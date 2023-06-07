@@ -1,9 +1,0 @@
-{
-  "type": "aether:freezing",
-  "category": "misc",
-  "cookingtime": 60,
-  "ingredient": {
-    "item": "minecraft:sugar"
-  },
-  "result": "aether_genesis:icestone_poprocks"
-}
