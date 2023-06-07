@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aether:blue_berry"
+    },
+    {
+      "tag": "graviton:iced_sugars"
+    },
+    {
+      "tag": "forge:rods/wooden"
+    }
+  ],
+  "result": {
+    "item": "aether_genesis:blueberry_lollipop"
+  }
+}

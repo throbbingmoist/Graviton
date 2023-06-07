@@ -1,8 +1,7 @@
 {
   "type": "aether:freezing",
   "category": "misc",
-  "cookingtime": 200,
-  "experience": 0.2,
+  "cookingtime": 60,
   "ingredient": {
     "item": "minecraft:sugar"
   },
