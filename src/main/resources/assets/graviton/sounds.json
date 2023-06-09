@@ -1,0 +1,11 @@
+{
+  "welcoming_skies": {
+    "subtitle": "subtitles.music_disc_welcoming_skies",
+    "sounds": [
+      {
+        "name": "graviton:welcoming_skies",
+        "stream": true
+      }
+    ]
+  }
+}

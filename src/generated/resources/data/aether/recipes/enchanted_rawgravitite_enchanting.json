@@ -1,0 +1,10 @@
+{
+  "type": "aether:enchanting",
+  "category": "misc",
+  "cookingtime": 750,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "graviton:raw_gravitite"
+  },
+  "result": "graviton:gravitite_plate"
+}

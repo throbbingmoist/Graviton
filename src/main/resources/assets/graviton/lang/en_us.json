@@ -75,6 +75,10 @@
   "item.graviton.cockatrice_cocktail": "Cockatrice Cocktail",
 
   "block.graviton.aether_smithing_table": "Skyroot Smithing Table",
+  
+  "subtitles.music_disc_welcoming_skies": "Voyed - Welcoming Skies",
+  "item.graviton.music_disc_welcoming_skies.desc": "Voyed - Welcoming Skies",
+  "item.graviton.music_disc_welcoming_skies": "Frosted Music Disc",
 
   "block.graviton.debug_crystalline_inventory": "DEBUG CAGB",
 

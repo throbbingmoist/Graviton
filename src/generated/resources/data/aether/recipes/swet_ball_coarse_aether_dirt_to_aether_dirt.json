@@ -1,0 +1,9 @@
+{
+  "type": "aether:swet_ball_conversion",
+  "ingredient": {
+    "block": "graviton:coarse_aether_dirt"
+  },
+  "result": {
+    "block": "aether:aether_dirt"
+  }
+}

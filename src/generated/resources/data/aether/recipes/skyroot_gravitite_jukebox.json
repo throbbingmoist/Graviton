@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "minecraft:jukebox",
+  "key": {
+    "G": {
+      "item": "graviton:gravitite_plate"
+    },
+    "P": {
+      "tag": "aether:planks_crafting"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PGP",
+    "PPP"
+  ],
+  "result": {
+    "item": "minecraft:jukebox"
+  },
+  "show_notification": true
+}

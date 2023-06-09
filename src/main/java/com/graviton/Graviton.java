@@ -3,6 +3,7 @@ package com.graviton;
 import com.graviton.block.GravitonBlocks;
 import com.graviton.item.GravitonCreativeTabs;
 import com.graviton.item.GravitonItems;
+import com.graviton.sound.GravitonSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,6 +29,7 @@ public class Graviton
 
         GravitonItems.register(modEventBus);
         GravitonBlocks.register(modEventBus);
+        GravitonSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -81,6 +83,7 @@ public class Graviton
             event.accept(GravitonBlocks.KARTHUULIUM_ORE);
             event.accept(GravitonBlocks.KARTHUULIUM_BLOCK);
             event.accept(GravitonBlocks.AETHER_IRON_ORE);
+
             event.accept(GravitonItems.ATMOSINE_SHARD);
             event.accept(GravitonBlocks.ATMOSINE_BLOCK);
             event.accept(GravitonBlocks.BUDDING_ATMOSINE);
@@ -88,6 +91,8 @@ public class Graviton
             event.accept(GravitonBlocks.ATMOSINE_BUD_MEDIUM);
             event.accept(GravitonBlocks.ATMOSINE_BUD_LARGE);
             event.accept(GravitonBlocks.ATMOSINE_CLUSTER);
+
+            event.accept(GravitonItems.MUSIC_DISC_WELCOMING_SKIES);
 
             event.accept(GravitonItems.BLOOD_ORANGE);
             event.accept(GravitonItems.BERRY_PRESERVES);

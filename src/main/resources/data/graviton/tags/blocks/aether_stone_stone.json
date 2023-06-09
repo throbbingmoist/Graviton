@@ -1,6 +1,5 @@
 {
   "values": [
-    "minecraft:stone",
     "graviton:heliosite_block",
     {
       "id": "deep_aether:clorite",

@@ -2,9 +2,11 @@ package com.graviton.item;
 
 import com.graviton.Graviton;
 import com.graviton.item.custom.*;
+import com.graviton.sound.GravitonSounds;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.RecordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -35,6 +37,9 @@ public class GravitonItems {
 
     public static final RegistryObject<Item> BLOOD_HUSK = ITEMS.register("blood_husk",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MUSIC_DISC_WELCOMING_SKIES = ITEMS.register("music_disc_welcoming_skies",
+            () -> new RecordItem(8, GravitonSounds.WELCOMING_SKIES,new Item.Properties().stacksTo(1), 4417));
 
     public static final RegistryObject<Item> BLOOD_ORANGE = ITEMS.register("blood_orange",
             () -> new Item(new Item.Properties().food(Foods.BLOOD_ORANGE)));
