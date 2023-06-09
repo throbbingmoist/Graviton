@@ -77,7 +77,7 @@ public class Graviton
 
             event.accept(GravitonItems.BLOOD_HUSK);
             event.accept(GravitonItems.RAW_GRAVITITE);
-            event.accept(GravitonItems.GRAVITITE_PLATE);
+
             event.accept(GravitonBlocks.AETHER_IRON_ORE);
 
             event.accept(GravitonItems.ATMOSINE_SHARD);
