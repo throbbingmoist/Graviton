@@ -4,6 +4,7 @@ import com.graviton.block.GravitonBlocks;
 import com.graviton.item.GravitonCreativeTabs;
 import com.graviton.item.GravitonItems;
 import com.graviton.sound.GravitonSounds;
+import com.graviton.worldgen.GravitonConfiguredFeatures;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;

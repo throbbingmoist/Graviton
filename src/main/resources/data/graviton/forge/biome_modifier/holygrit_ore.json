@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#aether:is_aether",
+  "features": "graviton:holygrit_ore",
+  "step": "underground_ores"
+}

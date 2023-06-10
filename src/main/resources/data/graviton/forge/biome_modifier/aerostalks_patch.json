@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#aether:is_aether",
+  "features": "graviton:patch_aerostalks",
+  "step": "vegetal_decoration"
+}

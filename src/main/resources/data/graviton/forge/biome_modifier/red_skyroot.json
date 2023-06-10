@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#aether:is_aether",
+  "features": "graviton:red_skyroot_placed",
+  "step": "vegetal_decoration"
+}
