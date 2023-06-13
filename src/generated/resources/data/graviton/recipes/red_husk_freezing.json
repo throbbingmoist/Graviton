@@ -1,6 +1,6 @@
 {
   "type": "aether:freezing",
-  "category": "misc",
+  "category": "freezable_misc",
   "cookingtime": 200,
   "experience": 0.1,
   "ingredient": {

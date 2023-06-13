@@ -9,7 +9,7 @@
       "tag": "forge:rods/wooden"
     },
     {
-      "tag": "graviton:iced_sugars"
+      "item": "minecraft:sugar"
     }
   ],
   "result": {

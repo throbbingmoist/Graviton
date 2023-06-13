@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "graviton:iced_sugars"
+      "item": "minecraft:sugar"
     },
     {
       "item": "aether:skyroot_water_bucket"
     },
     {
-      "tag": "graviton:iced_sugars"
+      "item": "minecraft:sugar"
     },
     {
       "tag": "graviton:preserve_berries"
