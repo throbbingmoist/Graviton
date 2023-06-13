@@ -96,7 +96,6 @@ public class Graviton
             event.accept(GravitonItems.ORANGE_MARMALADE);
             event.accept(GravitonItems.BERRY_JAM_BREAD);
             event.accept(GravitonItems.ORANGE_JAM_BREAD);
-            event.accept(GravitonItems.RAINBOW_CAKE_SLICE);
             event.accept(GravitonItems.ETHERIC_STEW);
             event.accept(GravitonItems.ETHERIC_RAMEN);
             event.accept(GravitonItems.AUTUMNGOURD_CHUNK);

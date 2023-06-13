@@ -4,7 +4,7 @@
   "cookingtime": 200,
   "experience": 0.1,
   "ingredient": {
-    "item": "graviton:red_husk"
+    "item": "graviton:blood_husk"
   },
   "result": "minecraft:redstone"
 }

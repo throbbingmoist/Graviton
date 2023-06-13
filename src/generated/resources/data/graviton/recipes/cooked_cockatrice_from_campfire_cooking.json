@@ -4,7 +4,7 @@
   "experience": 1,
   "cookingtime": 600,
   "ingredient": {
-    "item": "graviton:raw_cockatrice_meat"
+    "item": "graviton:raw_cockatrice"
   },
-  "result": "graviton:cooked_cockatrice_meat"
+  "result": "graviton:cooked_cockatrice"
 }
