@@ -12,20 +12,17 @@
       "item": "minecraft:sugar"
     },
     {
-      "tag": "graviton:oranges"
+      "tag": "graviton:jam_berries"
     },
     {
-      "tag": "graviton:oranges"
+      "tag": "graviton:jam_berries"
     },
     {
-      "tag": "graviton:oranges"
-    },
-    {
-      "tag": "graviton:oranges"
+      "tag": "graviton:jam_berries"
     }
   ],
   "result": {
-    "item": "graviton:orange_marmalade",
+    "item": "graviton:skyroot_berry_jam_bucket",
     "count": 1
   }
 }

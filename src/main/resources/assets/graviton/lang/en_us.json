@@ -28,6 +28,9 @@
 
   "block.graviton.blue_swet_block": "Blue Swet Block",
   "block.graviton.blue_frozen_swet_block": "Blue Frozen Swet Block",
+  
+  
+  "block.graviton.aether_smithing_table": "Skyroot Smithing Table",
 
   "block.graviton.atmosine_block": "Atmosine Block",
   "block.graviton.atmosine_bud_small": "Small Atmosine Bud",
@@ -35,31 +38,31 @@
   "block.graviton.atmosine_bud_large": "Large Atmosine Bud",
   "block.graviton.atmosine_cluster": "Atmosine Cluster",
   "block.graviton.budding_atmosine": "Budding Atmosine",
-
   "item.graviton.atmosine_shard": "Atmosine Shard",
-
+  
   "block.graviton.aether_iron_ore": "Aether Iron Ore",
+  "item.graviton.raw_gravitite": "Raw Gravitite",
+  "item.graviton.gravitite_plate": "Gravitite Plate",
+  "item.graviton.blood_husk": "Blood Husk",
+  
   "block.graviton.karthuulium_block": "Block Of Karthuulium",
   "block.graviton.karthuulium_ore": "Karthuulium Ore",
   "item.graviton.raw_karthuulium": "Raw Karthuulium",
   "item.graviton.karthuulium_ingot": "Karthuulium Ingot",
 
-  "item.graviton.raw_gravitite": "Raw Gravitite",
-  "item.graviton.gravitite_plate": "Gravitite Plate",
-
-  "item.graviton.blood_husk": "Blood Husk",
-
-  "item.graviton.blood_orange": "Blood Orange",
   "item.graviton.aechor_ice_cream": "Aechor Ice Cream",
   "item.graviton.aechor_ice_cream_mix": "Aechor Ice Cream Mix",
   "item.graviton.enchanted_ice_cream": "Enchanted Ice Cream",
-  "item.graviton.berry_preserves": "Berry Preserves",
-  "item.graviton.orange_marmalade": "Orange Marmalade",
+  "item.graviton.rainbow_cake_slice": "Rainbow Cake Slice",
+  "item.graviton.cockatrice_cocktail": "Cockatrice Cocktail",
+  
+  "item.graviton.blood_orange": "Blood Orange",
+  "item.graviton.skyroot_berry_jam_bucket": "Skyroot Berry Jam Bucket",
+  "item.graviton.skyroot_orange_jam_bucket": "Skyroot Orange Jam Bucket",
   "item.graviton.berry_jam_bread": "Berry Jam Bread",
   "item.graviton.orange_jam_bread": "Orange Jam Bread",
+  "item.graviton.etheric_soup": "Etheric Soup",
   "item.graviton.etheric_stew": "Etheric Stew",
-  "item.graviton.etheric_ramen": "Etheric Ramen",
-  "item.graviton.rainbow_cake_slice": "Rainbow Cake Slice",
   "item.graviton.raw_cockatrice": "Raw Cockatrice",
   "item.graviton.cooked_cockatrice": "Cooked Cockatrice",
   "item.graviton.fried_moa_egg": "Fried Moa Egg",
@@ -73,9 +76,6 @@
   "item.graviton.autumngourd_chunk": "Autumn Gourd Chunk",
   "item.graviton.autumn_pie": "Autumn Pie",
   "item.graviton.skyroot_nectar_bucket": "Skyroot Nectar Bucket",
-  "item.graviton.cockatrice_cocktail": "Cockatrice Cocktail",
-
-  "block.graviton.aether_smithing_table": "Skyroot Smithing Table",
   
   "subtitles.music_disc_welcoming_skies": "Voyed - Welcoming Skies",
   "item.graviton.music_disc_welcoming_skies.desc": "Voyed - Welcoming Skies",

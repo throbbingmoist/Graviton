@@ -12,20 +12,17 @@
       "item": "minecraft:sugar"
     },
     {
-      "tag": "graviton:preserve_berries"
+      "tag": "graviton:oranges"
     },
     {
-      "tag": "graviton:preserve_berries"
+      "tag": "graviton:oranges"
     },
     {
-      "tag": "graviton:preserve_berries"
-    },
-    {
-      "item": "aether_genesis:skyroot_bowl"
+      "tag": "graviton:oranges"
     }
   ],
   "result": {
-    "item": "graviton:berry_preserves",
+    "item": "graviton:skyroot_orange_jam_bucket",
     "count": 1
   }
 }

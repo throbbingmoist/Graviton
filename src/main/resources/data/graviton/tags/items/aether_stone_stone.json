@@ -1,6 +1,7 @@
 {
   "values": [
-    "graviton:heliosite_block",
+	"minecraft:stone",
+    "aether:holystone",
     {
       "id": "deep_aether:clorite",
       "required": false

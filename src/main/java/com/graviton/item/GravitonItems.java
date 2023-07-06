@@ -53,11 +53,11 @@ public class GravitonItems {
     public static final RegistryObject<Item> ENCHANTED_ICE_CREAM = ITEMS.register("enchanted_ice_cream",
             () -> new EnchantedIceCream());
 
-    public static final RegistryObject<Item> BERRY_PRESERVES = ITEMS.register("berry_preserves",
-            () -> new BerryPreserves());
+    public static final RegistryObject<Item> SKYROOT_BERRY_JAM_BUCKET = ITEMS.register("skyroot_berry_jam_bucket",
+            () -> new SkyrootBerryJamBucket());
 
-    public static final RegistryObject<Item> ORANGE_MARMALADE = ITEMS.register("orange_marmalade",
-            () -> new OrangeMarmalade());
+    public static final RegistryObject<Item> SKYROOT_ORANGE_JAM_BUCKET = ITEMS.register("skyroot_orange_jam_bucket",
+            () -> new SkyrootOrangeJamBucket());
 
     public static final RegistryObject<Item> BERRY_JAM_BREAD = ITEMS.register("berry_jam_bread",
             () -> new Item(new Item.Properties().food(Foods.BERRY_JAM_BREAD)));
@@ -65,11 +65,11 @@ public class GravitonItems {
     public static final RegistryObject<Item> ORANGE_JAM_BREAD = ITEMS.register("orange_jam_bread",
             () -> new Item(new Item.Properties().food(Foods.ORANGE_JAM_BREAD)));
 
+    public static final RegistryObject<Item> ETHERIC_SOUP = ITEMS.register("etheric_soup",
+            () -> new EthericSoup());
+
     public static final RegistryObject<Item> ETHERIC_STEW = ITEMS.register("etheric_stew",
             () -> new EthericStew());
-
-    public static final RegistryObject<Item> ETHERIC_RAMEN = ITEMS.register("etheric_ramen",
-            () -> new EthericRamen());
 
     public static final RegistryObject<Item> COCKATRICE_COCKTAIL = ITEMS.register("cockatrice_cocktail",
             () -> new CockatriceCocktail());

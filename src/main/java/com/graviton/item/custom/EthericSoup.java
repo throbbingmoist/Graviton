@@ -1,26 +1,26 @@
 package com.graviton.item.custom;
 
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
 
-public class BerryPreserves extends Item {
-    public BerryPreserves(){
+public class EthericSoup extends Item {
+    public EthericSoup(){
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
-                .nutrition(6)
-                .saturationMod(0.4F)
+                .nutrition(5)
+                .saturationMod(1.0F)
+                .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 1600, 0),1.0F)
+                .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0),0.5F)
+                .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 300, 0),0.6F)
                 .build()));
     }
 
-    @Override
-    public UseAnim getUseAnimation(ItemStack itemstack) {
-        return UseAnim.DRINK;
-    }
     @Override
     public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
         ItemStack retval = new ItemStack(Items.BOWL);

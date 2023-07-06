@@ -92,21 +92,17 @@ public class Graviton
             event.accept(GravitonItems.MUSIC_DISC_WELCOMING_SKIES);
 
             event.accept(GravitonItems.BLOOD_ORANGE);
-            event.accept(GravitonItems.BERRY_PRESERVES);
-            event.accept(GravitonItems.ORANGE_MARMALADE);
+            event.accept(GravitonItems.SKYROOT_BERRY_JAM_BUCKET);
+            event.accept(GravitonItems.SKYROOT_ORANGE_JAM_BUCKET);
             event.accept(GravitonItems.BERRY_JAM_BREAD);
             event.accept(GravitonItems.ORANGE_JAM_BREAD);
+            event.accept(GravitonItems.ETHERIC_SOUP);
             event.accept(GravitonItems.ETHERIC_STEW);
-            event.accept(GravitonItems.ETHERIC_RAMEN);
             event.accept(GravitonItems.AUTUMNGOURD_CHUNK);
             event.accept(GravitonItems.AUTUMN_PIE);
             event.accept(GravitonItems.FRIED_MOA_EGG);
             event.accept(GravitonItems.RAW_COCKATRICE);
             event.accept(GravitonItems.COOKED_COCKATRICE);
-            event.accept(GravitonItems.AECHOR_ICE_CREAM_MIX);
-            event.accept(GravitonItems.AECHOR_ICE_CREAM);
-            event.accept(GravitonItems.ENCHANTED_ICE_CREAM);
-            event.accept(GravitonItems.COCKATRICE_COCKTAIL);
             event.accept(GravitonItems.SKYROOT_NECTAR_BUCKET);
 
             event.accept(GravitonItems.WYNDBERRY_LOLLIPOP);

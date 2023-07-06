@@ -1,7 +1,7 @@
 {
   "values": [
     "minecraft:stone_slab",
-    "graviton:heliosite_slab",
+    "aether:holystone_slab",
     {
       "id": "deep_aether:clorite_slab",
       "required": false

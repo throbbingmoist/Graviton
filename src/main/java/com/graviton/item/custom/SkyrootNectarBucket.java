@@ -12,6 +12,8 @@ import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
 
 import com.aetherteam.aether.item.AetherItems;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class SkyrootNectarBucket extends Item {
     public SkyrootNectarBucket(){
@@ -29,6 +31,11 @@ public class SkyrootNectarBucket extends Item {
     @Override
     public UseAnim getUseAnimation(ItemStack itemstack) {
         return UseAnim.DRINK;
+    }
+    @Override
+    @OnlyIn(Dist.CLIENT)
+    public boolean isFoil(ItemStack itemstack) {
+        return true;
     }
     @Override
     public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {

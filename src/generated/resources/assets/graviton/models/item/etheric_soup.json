@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "graviton:item/etheric_soup",
+    "particle": "graviton:item/eating/etheric_soup_eating"
+  }
+}

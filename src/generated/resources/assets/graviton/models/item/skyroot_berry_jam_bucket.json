@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "graviton:item/orange_marmalade"
+    "layer0": "graviton:item/skyroot_berry_jam_bucket"
   }
 }

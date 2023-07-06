@@ -11,8 +11,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
 
-public class OrangeMarmalade extends Item {
-    public OrangeMarmalade(){
+public class SkyrootOrangeJamBucket extends Item {
+    public SkyrootOrangeJamBucket(){
         super(new Item.Properties().stacksTo(1).food((new FoodProperties.Builder())
                 .nutrition(6)
                 .saturationMod(0.4F)

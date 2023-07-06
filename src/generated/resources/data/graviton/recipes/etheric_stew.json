@@ -12,14 +12,14 @@
       "item": "graviton:autumngourd_chunk"
     },
     {
-      "tag": "graviton:etheric_ramen_meats"
+      "tag": "graviton:etheric_stew_meats"
     },
     {
-      "item": "graviton:etheric_stew"
+      "item": "graviton:etheric_soup"
     }
   ],
   "result": {
-    "item": "graviton:etheric_ramen",
+    "item": "graviton:etheric_stew",
     "count": 1
   }
 }
