@@ -1,7 +1,6 @@
 package com.graviton.block.custom;
 
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.HoneyBlock;
 import net.minecraft.world.level.block.SlimeBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
