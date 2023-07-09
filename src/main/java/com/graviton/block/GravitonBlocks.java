@@ -73,7 +73,7 @@ public class GravitonBlocks {
     public static final RegistryObject<Block> KARTHUULIUM_ORE = registerBlock("karthuulium_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)));
     public static final RegistryObject<Block> AETHER_IRON_ORE = registerBlock("aether_iron_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)));
 
-    public static final RegistryObject<Block> AETHER_SMITHING_TABLE = registerBlock("aether_smithing_table", () -> new SmithingTableBlock(BlockBehaviour.Properties.copy((Blocks.SMITHING_TABLE))));
+    public static final RegistryObject<Block> AETHER_SMITHING_TABLE = registerBlock("aether_smithing_table", () -> new AetherSmithingTable(Block.Properties.copy(Blocks.SMITHING_TABLE)));
 
     public static final RegistryObject<Block> HELIOSITE_ORE = registerBlock("heliosite_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
     public static final RegistryObject<Block> HELIOSITE_BLOCK = registerBlock("heliosite_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK)));
