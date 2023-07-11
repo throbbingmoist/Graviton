@@ -1,7 +1,7 @@
 {   "parent": "block/block",
     "textures": {
-        "particle": "graviton:block/blue_frozen_swet_block",
-        "texture": "graviton:block/blue_frozen_swet_block"
+        "particle": "graviton:block/blue_chilled_swet_block",
+        "texture": "graviton:block/blue_chilled_swet_block"
     },
   "render_type": "translucent",
     "elements": [

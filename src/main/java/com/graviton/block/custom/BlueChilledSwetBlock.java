@@ -3,16 +3,15 @@ package com.graviton.block.custom;
 import com.graviton.block.GravitonBlocks;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.HoneyBlock;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 
 import java.util.function.BiPredicate;
 
-public class BlueFrozenSwetBlock extends HoneyBlock {
+public class BlueChilledSwetBlock extends HoneyBlock {
 
     private final BiPredicate<BlockState, BlockState> stickyPredicate = (state, other) -> other.getBlock() != state.getBlock();
-    public BlueFrozenSwetBlock() {
+    public BlueChilledSwetBlock() {
         super(BlockBehaviour.Properties.copy(Blocks.SLIME_BLOCK));
     }
 

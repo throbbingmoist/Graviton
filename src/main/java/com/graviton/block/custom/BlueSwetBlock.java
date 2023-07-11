@@ -23,6 +23,6 @@ public class BlueSwetBlock extends SlimeBlock {
     }
     @Override
     public boolean canStickTo(BlockState state, BlockState other) {
-        return stickyPredicate.test(GravitonBlocks.BLUE_FROZEN_SWET_BLOCK.get().defaultBlockState(), other) && stickyPredicate.test(Blocks.HONEY_BLOCK.defaultBlockState(), other);
+        return stickyPredicate.test(GravitonBlocks.BLUE_CHILLED_SWET_BLOCK.get().defaultBlockState(), other) && stickyPredicate.test(Blocks.HONEY_BLOCK.defaultBlockState(), other);
     }
 }

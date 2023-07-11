@@ -74,7 +74,7 @@ public class Graviton
             event.accept(GravitonBlocks.CHISELED_HELIOSITE_BLOCK);
 
             event.accept(GravitonBlocks.BLUE_SWET_BLOCK);
-            event.accept(GravitonBlocks.BLUE_FROZEN_SWET_BLOCK);
+            event.accept(GravitonBlocks.BLUE_CHILLED_SWET_BLOCK);
 
             event.accept(GravitonItems.BLOOD_HUSK);
             event.accept(GravitonItems.RAW_GRAVITITE);
