@@ -53,6 +53,10 @@ public class GravitonBlocks {
 
     public static final RegistryObject<Block> BLUE_SWET_BLOCK = registerBlock("blue_swet_block", () -> new BlueSwetBlock());
     public static final RegistryObject<Block> BLUE_CHILLED_SWET_BLOCK = registerBlock("blue_chilled_swet_block", () -> new BlueChilledSwetBlock());
+    public static final RegistryObject<Block> GOLDEN_SWET_BLOCK = registerBlock("golden_swet_block", () -> new GoldenSwetBlock());
+    public static final RegistryObject<Block> GOLDEN_CHILLED_SWET_BLOCK = registerBlock("golden_chilled_swet_block", () -> new GoldenChilledSwetBlock());
+    public static final RegistryObject<Block> DARK_SWET_BLOCK = registerBlock("dark_swet_block", () -> new DarkSwetBlock());
+    public static final RegistryObject<Block> DARK_CHILLED_SWET_BLOCK = registerBlock("dark_chilled_swet_block", () -> new DarkChilledSwetBlock());
 
     public static final RegistryObject<Block> ATMOSINE_BLOCK = registerBlock("atmosine_block", () -> new AmethystBlock(Block.Properties.copy(Blocks.AMETHYST_BLOCK)));
     public static final RegistryObject<Block> BUDDING_ATMOSINE = registerBlock("budding_atmosine", () -> new BuddingAtmosineBlock(Block.Properties.copy(Blocks.BUDDING_AMETHYST)));

@@ -10,10 +10,10 @@ import java.util.function.BiPredicate;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import com.graviton.block.GravitonBlocks;
 
-public class BlueSwetBlock extends SlimeBlock {
+public class GoldenSwetBlock extends SlimeBlock {
 
     private final BiPredicate<BlockState, BlockState> stickyPredicate = (state, other) -> other.getBlock() != state.getBlock();
-    public BlueSwetBlock() {
+    public GoldenSwetBlock() {
         super(BlockBehaviour.Properties.copy(Blocks.SLIME_BLOCK));
     }
 

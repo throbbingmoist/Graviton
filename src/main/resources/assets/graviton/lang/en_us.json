@@ -28,6 +28,10 @@
 
   "block.graviton.blue_swet_block": "Blue Swet Block",
   "block.graviton.blue_chilled_swet_block": "Blue Chilled Swet Block",
+  "block.graviton.golden_swet_block": "Golden Swet Block",
+  "block.graviton.golden_chilled_swet_block": "Golden Chilled Swet Block",
+  "block.graviton.dark_swet_block": "Dark Swet Block",
+  "block.graviton.dark_chilled_swet_block": "Dark Chilled Swet Block",
   
   
   "block.graviton.aether_smithing_table": "Skyroot Smithing Table",

@@ -8,10 +8,10 @@ import net.minecraft.world.level.block.state.BlockState;
 
 import java.util.function.BiPredicate;
 
-public class BlueChilledSwetBlock extends HoneyBlock {
+public class GoldenChilledSwetBlock extends HoneyBlock {
 
     private final BiPredicate<BlockState, BlockState> stickyPredicate = (state, other) -> other.getBlock() != state.getBlock();
-    public BlueChilledSwetBlock() {
+    public GoldenChilledSwetBlock() {
         super(BlockBehaviour.Properties.copy(Blocks.SLIME_BLOCK));
     }
 
