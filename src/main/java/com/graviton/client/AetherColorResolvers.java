@@ -30,7 +30,7 @@ import java.util.function.Consumer;
 
 import static net.minecraftforge.eventbus.api.EventPriority.*;
 
-//sunsette original code to change grass color
+/** sunsette original code to change grass color */
 @Mod.EventBusSubscriber(value = Dist.CLIENT, modid = Aether.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AetherColorResolvers {
     private static final ColorResolver AETHER_GRASS = (biome, x, z) -> 0xFCEA64;

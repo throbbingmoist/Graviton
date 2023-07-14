@@ -23,7 +23,7 @@ import org.slf4j.Logger;
 public class Graviton
 {
     public static final String MOD_ID = "graviton";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public Graviton() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

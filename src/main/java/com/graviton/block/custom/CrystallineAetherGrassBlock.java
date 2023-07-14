@@ -25,7 +25,7 @@ import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 
 import java.util.function.BiConsumer;
 
-//credit to sunsette
+/** code by Sunsette */
 public class CrystallineAetherGrassBlock extends GrassBlock {
     public CrystallineAetherGrassBlock(Properties properties) {
         super(properties);
