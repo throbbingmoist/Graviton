@@ -93,6 +93,17 @@ public class Graviton
             event.accept(GravitonBlocks.ATMOSINE_BUD_LARGE);
             event.accept(GravitonBlocks.ATMOSINE_CLUSTER);
 
+            event.accept(GravitonItems.ATMOSINE_SWORD);
+            event.accept(GravitonItems.ATMOSINE_PICKAXE);
+            event.accept(GravitonItems.ATMOSINE_SHOVEL);
+            event.accept(GravitonItems.ATMOSINE_AXE);
+            event.accept(GravitonItems.ATMOSINE_HOE);
+            event.accept(GravitonItems.ATMOSINE_HELMET);
+            event.accept(GravitonItems.ATMOSINE_CHESTPLATE);
+            event.accept(GravitonItems.ATMOSINE_LEGGINGS);
+            event.accept(GravitonItems.ATMOSINE_BOOTS);
+            event.accept(GravitonItems.ATMOSINE_GLOVES);
+
             event.accept(GravitonItems.MUSIC_DISC_WELCOMING_SKIES);
 
             event.accept(GravitonItems.BLOOD_ORANGE);
