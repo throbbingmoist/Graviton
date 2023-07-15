@@ -75,8 +75,11 @@ public class AeroStalksBlock extends SugarCaneBlock {
     @Override
     public boolean canSurvive(BlockState blockstate, LevelReader worldIn, BlockPos pos) {
         BlockState groundState = worldIn.getBlockState(pos.below());
-        return waterCheck(pos, worldIn) || groundState.is(this) || groundState.is(BlockTags.create(new ResourceLocation("graviton:aerostalks_plantable"))) || groundState.is(BlockTags.create(new ResourceLocation("minecraft:dirt")));
-
+        if (!groundState.is(Blocks.WATER)) {
+            return waterCheck(pos, worldIn) & (groundState.is(this) || groundState.is(BlockTags.create(new ResourceLocation("graviton:aerostalks_plantable"))) || groundState.is(BlockTags.create(new ResourceLocation("minecraft:dirt"))));
+        }
+        else
+            return false;
     }
     @Override
     public PlantType getPlantType(BlockGetter world, BlockPos pos) {
