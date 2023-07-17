@@ -14,6 +14,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 /** code by Sunsette */
+@Mod.EventBusSubscriber(modid = Graviton.MOD_ID)
 public class AbilityListener {
 
     /**

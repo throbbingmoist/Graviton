@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "graviton:atmosine_gloves",
+	{
+      "id": "#curios:hands",
+      "required": false
+    }
+  ]
+}

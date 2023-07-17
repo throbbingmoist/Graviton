@@ -33,7 +33,6 @@
   "block.graviton.dark_swet_block": "Dark Swet Block",
   "block.graviton.dark_chilled_swet_block": "Dark Chilled Swet Block",
   
-  
   "block.graviton.aether_smithing_table": "Skyroot Smithing Table",
 
   "block.graviton.atmosine_block": "Atmosine Block",
@@ -43,6 +42,17 @@
   "block.graviton.atmosine_cluster": "Atmosine Cluster",
   "block.graviton.budding_atmosine": "Budding Atmosine",
   "item.graviton.atmosine_shard": "Atmosine Shard",
+  
+  "item.graviton.atmosine_pickaxe": "Atmosine Pickaxe",
+  "item.graviton.atmosine_shovel": "Atmosine Shovel",
+  "item.graviton.atmosine_axe": "Atmosine Axe",
+  "item.graviton.atmosine_hoe": "Atmosine Hoe",
+  "item.graviton.atmosine_sword": "Atmosine Sword",
+  "item.graviton.atmosine_helmet": "Atmosine Helmet",
+  "item.graviton.atmosine_chestplate": "Atmosine Chestplate",
+  "item.graviton.atmosine_leggings": "Atmosine Leggings",
+  "item.graviton.atmosine_boots": "Atmosine Boots",
+  "item.graviton.atmosine_gloves": "Atmosine Gloves",
   
   "block.graviton.aether_iron_ore": "Aether Iron Ore",
   "item.graviton.raw_gravitite": "Raw Gravitite",
