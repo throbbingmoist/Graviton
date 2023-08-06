@@ -7,6 +7,6 @@ import net.minecraft.world.item.PickaxeItem;
 
 public class AtmosinePickaxeItem extends PickaxeItem {
     public AtmosinePickaxeItem() {
-        super(GravitonItemTiers.ATMOSINE, 1, -2.8f, new Item.Properties());
+        super(GravitonItemTiers.ATMOSINE, 0, -2.8F, new Item.Properties());
     }
 }

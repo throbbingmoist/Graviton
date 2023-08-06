@@ -15,7 +15,7 @@
     "aether:aether_dirt",
     "aether:quicksoil",
     "graviton:coarse_aether_dirt",
-    "graviton:crystalline_aether_grass_block"
+    "graviton:crystalline_aether_grass_block",
     {
       "id": "deep_aether:aether_moss_block",
       "required": false

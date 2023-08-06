@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 
 /** code by sunsette */
 public enum GravitonItemTiers implements Tier {
-    ATMOSINE(1, 250, 10.5F, 1.0F, 14, () -> Ingredient.of(GravitonTags.Items.ATMOSINE_REPAIRING));
+    ATMOSINE(1, 95, 10.0F, 1.0F, 15, () -> Ingredient.of(GravitonTags.Items.ATMOSINE_REPAIRING));
     private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
