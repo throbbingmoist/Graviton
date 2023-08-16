@@ -1,5 +1,5 @@
 {
-  "feature": "aether:atmosine_geode",
+  "feature": "graviton:atmosine_geode",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 150
+          "absolute": 128
         },
         "min_inclusive": {
-          "above_bottom": 20
+          "above_bottom": 28
         }
       }
     },

@@ -55,13 +55,13 @@
       "middle_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "aether:icestone"
+          "Name": "aether:holystone"
         }
       },
       "outer_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "aether:holystone"
+          "Name": "aether:icestone"
         }
       }
     },
@@ -82,7 +82,7 @@
       "filling": 1.0,
       "inner_layer": 1.4,
       "middle_layer": 1.8,
-      "outer_layer": 2.2
+      "outer_layer": 2.4
     },
     "max_gen_offset": 16,
     "min_gen_offset": -16,
