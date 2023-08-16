@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#aether:is_aether",
-  "features": "graviton:atmosine_geode",
-  "step": "local_modifications"
-}
