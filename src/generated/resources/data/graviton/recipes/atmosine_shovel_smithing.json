@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "graviton:atmosine_shard"
+  },
+  "base": {
+    "item": "aether:holystone_shovel"
+  },
+  "result": {
+    "item": "graviton:atmosine_shovel"
+  }
+}

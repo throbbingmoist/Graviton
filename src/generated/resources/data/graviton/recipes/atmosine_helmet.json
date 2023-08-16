@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "graviton:atmosine_shard"
+    },
+    "1": {
+      "item": "minecraft:leather_helmet"
+    },
+    "2": {
+      "item": "graviton:atmosine_shard"
+    }
+  },
+  "result": {
+    "item": "graviton:atmosine_helmet",
+    "count": 1
+  }
+}

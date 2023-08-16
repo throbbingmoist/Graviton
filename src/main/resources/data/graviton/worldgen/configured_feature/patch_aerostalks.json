@@ -110,8 +110,8 @@
         }
       ]
     },
-    "tries": 160,
-    "xz_spread": 10,
+    "tries": 30,
+    "xz_spread": 6,
     "y_spread": 0
   }
 }
