@@ -169,6 +169,7 @@ public class GravitonItems {
                 .nutrition(4)
                 .saturationMod(0.5F)
                 .fast()
+                .effect(() -> new MobEffectInstance(AetherEffects.REMEDY.get(), 250, 0),1.0F)
                 .build();
 
         public static final FoodProperties CHOCOLATE_LOLLIPOP = new FoodProperties.Builder()
