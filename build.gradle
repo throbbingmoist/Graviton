@@ -168,6 +168,7 @@ dependencies {
     compileOnly "com.aetherteam.aether:aether:1.19.4-1.0.0-beta.6.1-forge"
     runtimeOnly fg.deobf("com.aetherteam.aether:aether:1.19.4-1.0.0-beta.6.1-forge")
 }
+//gonna update to 1.20 neoforge, lets hope this all doesnt go to hell
 
 // Example for how to get properties into the manifest for reading at runtime.
 jar {
