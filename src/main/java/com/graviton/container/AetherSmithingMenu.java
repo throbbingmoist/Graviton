@@ -3,9 +3,9 @@ package com.graviton.container;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.ContainerLevelAccess;
-import net.minecraft.world.inventory.LegacySmithingMenu;
+import net.minecraft.world.inventory.SmithingMenu;
 import net.minecraft.world.level.block.Block;
-public class AetherSmithingMenu extends LegacySmithingMenu {
+public class AetherSmithingMenu extends SmithingMenu {
     private final ContainerLevelAccess access;
     private final Block block;
 

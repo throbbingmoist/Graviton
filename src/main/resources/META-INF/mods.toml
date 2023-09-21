@@ -1,5 +1,5 @@
 modLoader="javafml" 
-loaderVersion="[45,)" 
+loaderVersion="[47,)"
 
 
 license="GNU lGPL 2.1"
@@ -57,7 +57,7 @@ This is a WIP Addon to the Aether Legacy mod.
     mandatory=true 
 #mandatory
 # The version range of the dependency
-    versionRange="[45,)" 
+    versionRange="[47.1.0,)"
 #mandatory
 # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
     ordering="NONE"
@@ -68,6 +68,15 @@ This is a WIP Addon to the Aether Legacy mod.
 [[dependencies.graviton]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.4]"
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
 
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
+
+[[dependencies.graviton]]
+modId="aether"
+mandatory=true
+versionRange="[1.0.0-beta.6,)"
+ordering="AFTER"
+side="BOTH"
