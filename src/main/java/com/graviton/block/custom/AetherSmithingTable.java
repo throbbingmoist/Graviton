@@ -37,9 +37,7 @@ public class AetherSmithingTable extends SmithingTableBlock {
 
     @Override
     public MenuProvider getMenuProvider(BlockState state, Level level, BlockPos pos) {
-        return new SimpleMenuProvider((id, inventory, player) -> {
-            return new AetherSmithingMenu(id, inventory, ContainerLevelAccess.create(level, pos), this);
-        }, TITLE);
+        return new SimpleMenuProvider((id, inventory, player) -> new AetherSmithingMenu(id, inventory, ContainerLevelAccess.create(level, pos), this), TITLE);
     }
 
 }

@@ -13,8 +13,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.material.MaterialColor;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -43,7 +42,7 @@ public class GravitonBlocks {
             CrystallineAetherGrassBlock.itemColorLoad(event);
         }//Crystalline Aether
     }
-    public static final RegistryObject<Block> CRYSTALLINE_AETHER_GRASS_BLOCK = registerBlock("crystalline_aether_grass_block", () -> new CrystallineAetherGrassBlock(Block.Properties.of(Material.GRASS, MaterialColor.WARPED_WART_BLOCK).randomTicks().strength(0.2F).sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> CRYSTALLINE_AETHER_GRASS_BLOCK = registerBlock("crystalline_aether_grass_block", () -> new CrystallineAetherGrassBlock(Block.Properties.copy(Blocks.GRASS_BLOCK).randomTicks().strength(0.2F).mapColor(MapColor.WARPED_WART_BLOCK).sound(SoundType.GRASS)));
     public static final RegistryObject<Block> DEBUG_CRYSTALLINE_INVENTORY = registerBlock("debug_crystalline_inventory", () -> new Block(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)));
     public static final RegistryObject<Block> COARSE_AETHER_DIRT = registerBlock("coarse_aether_dirt", () -> new Block(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)));
     public static final RegistryObject<Block> HOLYGRIT = registerBlock("holygrit", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRAVEL)));
@@ -61,7 +60,7 @@ public class GravitonBlocks {
     public static final RegistryObject<Block> ATMOSINE_BLOCK = registerBlock("atmosine_block", () -> new AmethystBlock(Block.Properties.copy(Blocks.AMETHYST_BLOCK)));
     public static final RegistryObject<Block> BUDDING_ATMOSINE = registerBlock("budding_atmosine", () -> new BuddingAtmosineBlock(Block.Properties.copy(Blocks.BUDDING_AMETHYST)));
 
-    public static final RegistryObject<Block> ATMOSINE_CLUSTER = registerBlock("atmosine_cluster", () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.of(Material.AMETHYST).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> {
+    public static final RegistryObject<Block> ATMOSINE_CLUSTER = registerBlock("atmosine_cluster", () -> new AmethystClusterBlock(7, 3, BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).noOcclusion().randomTicks().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((p_152632_) -> {
         return 5;
     })));
     public static final RegistryObject<Block> ATMOSINE_BUD_LARGE = registerBlock("atmosine_bud_large", () -> new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(AMETHYST_CLUSTER).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel((p_152629_) -> {
@@ -87,14 +86,14 @@ public class GravitonBlocks {
     public static final RegistryObject<Block> HELIOSITE_SLAB = registerBlock("heliosite_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.QUARTZ_SLAB)));
     public static final RegistryObject<Block> HELIOSITE_STAIRS = registerBlock("heliosite_stairs", () -> new StairBlock(() -> GravitonBlocks.HELIOSITE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.QUARTZ_STAIRS)));
     public static final RegistryObject<Block> HELIOSITE_WALL = registerBlock("heliosite_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(0.8f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> SMOOTH_HELIOSITE_BLOCK = registerBlock("smooth_heliosite_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.SMOOTH_QUARTZ)));
     public static final RegistryObject<Block> SMOOTH_HELIOSITE_SLAB = registerBlock("smooth_heliosite_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_QUARTZ_SLAB)));
     public static final RegistryObject<Block> SMOOTH_HELIOSITE_STAIRS = registerBlock("smooth_heliosite_stairs", () -> new StairBlock(() -> GravitonBlocks.SMOOTH_HELIOSITE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.SMOOTH_QUARTZ_STAIRS)));
     public static final RegistryObject<Block> SMOOTH_HELIOSITE_WALL = registerBlock("smooth_heliosite_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(0.8f).requiresCorrectToolForDrops()));
 
 

@@ -171,7 +171,7 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
-    minecraft "net.neoforged:forge:${project.mc_version}-${project.neoforge_version}"
+    minecraft "net.neoforged:forge:${project.mc_version}-${project.neo_version}"
 
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${project.curios_version}")
     compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:${project.curios_version}:api")
