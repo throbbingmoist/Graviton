@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "graviton:block/atmosroot_log_top",
+    "side": "graviton:block/atmosroot_log"
+  }
+}

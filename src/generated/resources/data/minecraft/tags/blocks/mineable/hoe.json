@@ -3,6 +3,7 @@
   "values": [
     "graviton:red_skyroot_leaves",
     "graviton:dark_red_skyroot_leaves",
-    "graviton:dark_red_glowing_leaves"
+    "graviton:dark_red_glowing_leaves",
+	"graviton:atmosroot_leaves"
   ]
 }

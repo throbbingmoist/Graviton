@@ -1,7 +1,6 @@
 {
   "values": [
     "aether:zanite_gemstone",
-    "aethergenesis:arkenium_ingot",
-    "aethergenesis:gravitite_plate"
+    "graviton:gravitite_plate"
   ]
 }

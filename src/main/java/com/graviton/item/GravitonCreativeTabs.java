@@ -49,6 +49,25 @@ public class GravitonCreativeTabs {
                         pOutput.accept(GravitonBlocks.HELIOSITE_PILLAR.get().asItem());
                         pOutput.accept(GravitonBlocks.CHISELED_HELIOSITE_BLOCK.get().asItem());
 
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_LOG.get().asItem());
+                        pOutput.accept(GravitonBlocks.STRIPPED_ATMOSROOT_LOG.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_WOOD.get().asItem());
+                        pOutput.accept(GravitonBlocks.STRIPPED_ATMOSROOT_WOOD.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_PLANKS.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_SLAB.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_STAIRS.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_DOOR.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_TRAPDOOR.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_FENCE.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_FENCE_GATE.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_SIGN.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_HANGING_SIGN.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_SAPLING.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_LEAVES.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_BUTTON.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_PRESSURE_PLATE.get().asItem());
+                        pOutput.accept(GravitonBlocks.ATMOSROOT_BOOKSHELF.get().asItem());
+
                         pOutput.accept(GravitonBlocks.BLUE_SWET_BLOCK.get().asItem());
                         pOutput.accept(GravitonBlocks.BLUE_CHILLED_SWET_BLOCK.get().asItem());
                         pOutput.accept(GravitonBlocks.GOLDEN_SWET_BLOCK.get().asItem());

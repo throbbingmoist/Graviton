@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "graviton:heliosite_slab",
-    "graviton:smooth_heliosite_slab"
+    "graviton:smooth_heliosite_slab",
+	"graviton:atmosroot_slab"
   ]
 }

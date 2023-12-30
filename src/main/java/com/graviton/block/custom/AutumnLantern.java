@@ -27,6 +27,3 @@ public class AutumnLantern extends Block {
         return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
     }
 }
-
-
-/* Block(BlockBehaviour.Properties.copy(Blocks.JACK_O_LANTERN))); */

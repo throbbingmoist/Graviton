@@ -2,6 +2,24 @@
   "replace": false,
   "values": [
     "graviton:autumngourd",
-    "graviton:autumn_lantern"
+    "graviton:autumn_lantern",
+	"graviton:atmosroot_log",
+	"graviton:atmosroot_wood",
+	"graviton:stripped_atmosroot_log",
+	"graviton:stripped_atmosroot_wood",
+	"graviton:atmosroot_planks",
+	"graviton:atmosroot_button",
+	"graviton:atmosroot_pressure_plate",
+	"graviton:atmosroot_sign",
+	"graviton:atmosroot_wall_sign",
+	"graviton:atmosroot_hanging_sign",
+	"graviton:atmosroot_wall_hanging_sign",
+	"graviton:atmosroot_door",
+	"graviton:atmosroot_trapdoor",
+	"graviton:atmosroot_fence",
+	"graviton:atmosroot_fence_gate",
+	"graviton:atmosroot_slab",
+	"graviton:atmosroot_stairs",
+	"graviton:atmosroot_bookshelf"
   ]
 }

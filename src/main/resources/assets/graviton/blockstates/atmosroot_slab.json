@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "graviton:block/atmosroot_slab"
+    },
+    "type=double": {
+      "model": "graviton:block/atmosroot_planks"
+    },
+    "type=top": {
+      "model": "graviton:block/atmosroot_slab_top"
+    }
+  }
+}

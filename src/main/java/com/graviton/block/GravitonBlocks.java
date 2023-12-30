@@ -1,9 +1,9 @@
 package com.graviton.block;
 
-import com.aetherteam.aether.block.AetherBlocks;
 import com.graviton.Graviton;
 import com.graviton.block.custom.*;
 import com.graviton.item.GravitonItems;
+import com.graviton.block.entity.GravitonBlockEntityTypes;
 import com.graviton.worldgen.tree.RedSkyrootGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -49,6 +49,25 @@ public class GravitonBlocks {
     public static final RegistryObject<Block> AERO_STALKS = registerBlock("aero_stalks", () -> new AeroStalksBlock());
     public static final RegistryObject<Block> AUTUMNGOURD = registerBlock("autumngourd", () -> new Block(BlockBehaviour.Properties.copy(Blocks.PUMPKIN)));
     public static final RegistryObject<Block> AUTUMN_LANTERN = registerBlock("autumn_lantern", () -> new AutumnLantern());
+
+    public static final RegistryObject<Block> ATMOSROOT_LOG = registerBlock("atmosroot_log", () -> new GravitonLogBlock());
+    public static final RegistryObject<Block> STRIPPED_ATMOSROOT_LOG = registerBlock("stripped_atmosroot_log", () -> new GravitonLogBlock());
+    public static final RegistryObject<Block> ATMOSROOT_WOOD = registerBlock("atmosroot_wood", () -> new GravitonLogBlock());
+    public static final RegistryObject<Block> STRIPPED_ATMOSROOT_WOOD = registerBlock("stripped_atmosroot_wood", () -> new GravitonLogBlock());
+    public static final RegistryObject<Block> ATMOSROOT_PLANKS = registerBlock("atmosroot_planks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ATMOSROOT_SLAB = registerBlock("atmosroot_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)));
+    public static final RegistryObject<Block> ATMOSROOT_STAIRS = registerBlock("atmosroot_stairs", () -> new StairBlock(() -> GravitonBlocks.ATMOSROOT_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Block> ATMOSROOT_BOOKSHELF = registerBlock("atmosroot_bookshelf", () -> new Block(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF)));
+    public static final RegistryObject<Block> ATMOSROOT_BUTTON = registerBlock("atmosroot_button", () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON), GravitonWoodTypes.ATMOSROOT_BLOCK_SET, 30, true));
+    public static final RegistryObject<Block> ATMOSROOT_PRESSURE_PLATE = registerBlock("atmosroot_pressure_plate", () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE), GravitonWoodTypes.ATMOSROOT_BLOCK_SET));
+    public static final RegistryObject<Block> ATMOSROOT_DOOR = registerBlock("atmosroot_door", () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR), GravitonWoodTypes.ATMOSROOT_BLOCK_SET));
+    public static final RegistryObject<Block> ATMOSROOT_TRAPDOOR = registerBlock("atmosroot_trapdoor", () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_TRAPDOOR), GravitonWoodTypes.ATMOSROOT_BLOCK_SET));
+    public static final RegistryObject<Block> ATMOSROOT_FENCE = registerBlock("atmosroot_fence", () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE)));
+    public static final RegistryObject<Block> ATMOSROOT_FENCE_GATE = registerBlock("atmosroot_fence_gate", () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_FENCE_GATE), GravitonWoodTypes.ATMOSROOT));
+    public static final RegistryObject<Block> ATMOSROOT_HANGING_SIGN = registerBlockWithoutBlockItem("atmosroot_hanging_sign", () -> new CeilingHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN), GravitonWoodTypes.ATMOSROOT));
+    public static final RegistryObject<Block> ATMOSROOT_WALL_HANGING_SIGN = registerBlockWithoutBlockItem("atmosroot_wall_hanging_sign", () -> new WallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), GravitonWoodTypes.ATMOSROOT));
+    public static final RegistryObject<Block> ATMOSROOT_SIGN = registerBlockWithoutBlockItem("atmosroot_sign", () -> new StandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), GravitonWoodTypes.ATMOSROOT));
+    public static final RegistryObject<Block> ATMOSROOT_WALL_SIGN = registerBlockWithoutBlockItem("atmosroot_wall_sign", () -> new WallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), GravitonWoodTypes.ATMOSROOT));
 
     public static final RegistryObject<Block> BLUE_SWET_BLOCK = registerBlock("blue_swet_block", () -> new BlueSwetBlock());
     public static final RegistryObject<Block> BLUE_CHILLED_SWET_BLOCK = registerBlock("blue_chilled_swet_block", () -> new BlueChilledSwetBlock());
@@ -98,6 +117,23 @@ public class GravitonBlocks {
 
 
 
+    public static final RegistryObject<Block> ATMOSROOT_LEAVES = registerBlock("atmosroot_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 30;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+                    return 60;
+                }
+            });
     public static final RegistryObject<Block> RED_SKYROOT_LEAVES = registerBlock("red_skyroot_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
                 @Override
@@ -157,6 +193,9 @@ public class GravitonBlocks {
     public static final RegistryObject<Block> RED_SKYROOT_SAPLING = registerBlock("red_skyroot_sapling",
             () -> new SaplingBlock(new RedSkyrootGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
+    public static final RegistryObject<Block> ATMOSROOT_SAPLING = registerBlock("atmosroot_sapling",
+            () -> new SaplingBlock(new RedSkyrootGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
@@ -166,6 +205,9 @@ public class GravitonBlocks {
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block)
                                                                              {
         return GravitonItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+    }
+    private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
+        return BLOCKS.register(name, block);
     }
 
     public static void register(IEventBus eventBus) {
